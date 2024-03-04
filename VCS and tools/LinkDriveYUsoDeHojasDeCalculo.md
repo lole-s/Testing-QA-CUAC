@@ -28,25 +28,38 @@ _Trucos google drive:_ https://www.youtube.com/watch?v=EXjt8xW43Yw
 
 _Definición:_ Hojas de cálculo de Google (en inglés Google Sheets) es un programa de hojas de cálculo que se incluye como parte del conjunto gratuito de Google Docs Editors basado en la web que ofrece Google. Hojas de cálculo de Google está disponible como aplicación web, aplicación móvil para Android, iOS, Windows, BlackBerry y como aplicación de escritorio en Chrome OS de Google. La aplicación es compatible con los formatos de archivo de Microsoft Excel. La aplicación permite a los usuarios crear y editar archivos en línea mientras colaboran con otros usuarios en tiempo real. Las ediciones son rastreadas por el usuario con un historial de revisión que presenta los cambios. La posición de un editor se resalta con un color y un cursor específicos del editor y un sistema de permisos regula lo que los usuarios pueden hacer. Las actualizaciones han introducido funciones que utilizan el aprendizaje automático que ofrece respuestas basadas en preguntas de lenguaje natural en una hoja de cálculo.
 
+Referencia: https://es.wikipedia.org/wiki/Hojas_de_c%C3%A1lculo_de_Google
+
+Componentes basicos de una hoja de cálculo: https://www.youtube.com/watch?v=w6MeASAl2Wc
+
 **Ejercicio 1:** 
   1. Ir a Google Drive y abrir el archivo *\ProA2024\Testing_QA\Testing_Sheet_?????*.
   2. Renombrar la hoja actual "Hoja 1" a "Temas"
   3. En la hoja "Temas" armar la siguiente tabla:
      | Fecha | Clase n° | Eje | Tema | Actividad |
      |-------|----------|-----|------|-----------|
-     | 2024-02-28 | 1 | 0 | Presentació| Presentacion del espacio curricular|
+     | 2024-02-28 | 1 | 0 | Presentació | Presentacion del espacio curricular |
      | 2024-03-04 | 2 | 2 | Trabajo Colaborativo | Uso de drive y google sheet |
   4. Poner en Negrita (CTRL+B) la primer Columna, poner en _cursiva_ (CTRL+I) la casilla 'E1'
-  5. Hacer una grilla con bordes desde _A:E:1_ a _A:E:80_ 
+  5. Hacer una grilla con bordes en el rango _A1:E80_ 
      
  **Ejercicio 2:** 
   1. Sobre el mismo documento *\ProA2024\Testing_QA\Testing_Sheet_?????*, crear una nueva Hoja (Hoja 2)
-  2. Renombrar la hoja actual "Hoja 2" a "Ejercicios"
+  2. Renombrar la hoja actual "Hoja 2" a  "Ejercicios"
   3. En la hoja "Ejercicios":
-     a. Sumar los numero enteros desde 1 hasta el 1000
-     b. Crear un tabla de recibo con las columnas Cantidad | Producto | Precio U. | SubTotal
-       * Hacer las suma de las columna Subtotal y mostrarla abajo en una casilla que se llame NETO TOTAL
-       * Hacer el calculo del IVA  del NETO TOTAL y mostrarlo en una casilla que se llame TOTAL
-       * completar la tabla con 5 productos.
-         
-
+  4. Sobre la columna A:
+      * Sumar los numero enteros desde 1 hasta el 1000
+  5. Sobre las columnas C a F:
+      * Crear un tabla de recibo con las columnas Cantidad | Producto | Precio U. | SubTotal
+      * Hacer las suma de las columna Subtotal y mostrarla abajo en una casilla que se llame NETO TOTAL
+      * Hacer el calculo del IVA  del NETO TOTAL y mostrarlo en una casilla que se llame TOTAL
+      * completar la tabla con 5 productos, con distintas cantidades y valores. Expresar los resultados en pesos.
+ 
+ **Ejercicio 3:**  
+1. Cree una nueva hoja de cálculo.
+2. Haga un listado de nombres y notas (4 notas) y calcule la media de cada alumno.
+    * copiar el listado nombres de: link lole
+    * La media se puede calcular con la función =AVERAGE(XX:YY) o PROMEDIO(XX:YY) 
+    * Y puede ser calculado tamabien sumando los valores y dividiendolo por la candidad de columnas  
+3. Cambiar nombre a la hoja 1 por "Notas".
+4. Cambiar nombre al documento por "Ejemplo de Tabla de Nota".  
