@@ -15,7 +15,7 @@ _Trucos google drive:_ https://www.youtube.com/watch?v=EXjt8xW43Yw
   3. Crear otra carpeta llamada *Testing_QA*
   4. Ingresar a la carpeta *Testing_QA*  y crear una hoja de cálculo llamada *Testing_Sheet_?????*
   5. Salir de la carpeta *Testing_QA* y luego moverla dentro de *ProA2024*
-  6. Compartir el link del archivo *Testing_Sheet_?????* a la dirección: *jcsodo@gmail.com*
+  6. Compartir el link del archivo *Testing_Sheet_?????* a la dirección: *jcsodo@escuelasproa.edu.ar*
 
 **Ejercicio 2:**
   1. En tu computadora crea una carpeta llamada "Proa2024_?????" en la direccion D:\
