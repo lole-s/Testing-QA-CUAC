@@ -23,7 +23,35 @@ _Trucos google drive:_ https://www.youtube.com/watch?v=EXjt8xW43Yw
   3. mkdir D:\Proa2024_?????\Testing_QA\
   4. Ir a la carpeta creada y crear el archivo de txt "testing.prueba.txt"
   5. Copiar (arrastrar y soltar) dentro de la carpeta *Testing_QA* alojada en el Drive
-     
+____
+_Qué es el CMD?_
+
+El Símbolo del sistema, también llamado CMD, forma parte de Windows y no puede ser desinstalado. Es una herramienta que, mediante comandos, permite realizar acciones avanzadas. Si bien puede parecer a la Terminal de GNU/Linux, el CMD no es tan potente.
+A continuación se proporcionas los comandos más comunes usados en Windows y sus homólogos en Linux.ones.
+
+**TABLA DE COMANDOS SIMILARES ENTRE WINDOWS Y LINUX**
+
+| Propósito | WINDOWS | LINUX | Ejemplo básico de LINUX |
+|----|----|----|----|
+| Ayuda sobre comandos | cmd /? | man cmd | man comando |
+| Crear un directorio | mkdir |mkdir| mkdir /home/qdirectorio |
+| Cambia a un directorio | cd |cd | cd /home/qdirectorio |
+| Sube un directorio | cd .. | cd .. | |
+| Lista directorio | dir | ls -ls| |
+| Borra la pantalla | cls | clear| |
+| Cierra la ventana | exit |exit| |
+| Borrar un directorio | rmdir | rmdir | rmdir /home/qdirectorio |
+| Muestra un archivo | more | more | more qfichero |
+| Renombra un archivo | rename | mv | mv nombreold nombrenew |
+| Copia archivos | copy | cp | cp qfichero.txt /home/qdirectorio |
+| Mueve archivos | move | mv | mv qfichero.txt /home/qdirectorio |
+| Muestra o conf fecha | date | date| |
+| Muestra o conf hora | time | date| |
+| Borra archivos| del | rm | rm qfichero.txt |
+| Busca texto en archivo | find | grep | grep “que contenido” qfichero.txt |
+| Crea un archivo | copy con | touch | touch newfichero.txt |
+| Visualiza la salida std | echo | echo | echo Testing_QA_CUAC |
+____     
 ## Google Sheet
 
 _Definición:_ Hojas de cálculo de Google (en inglés Google Sheets) es un programa de hojas de cálculo que se incluye como parte del conjunto gratuito de Google Docs Editors basado en la web que ofrece Google. Hojas de cálculo de Google está disponible como aplicación web, aplicación móvil para Android, iOS, Windows, BlackBerry y como aplicación de escritorio en Chrome OS de Google. La aplicación es compatible con los formatos de archivo de Microsoft Excel. La aplicación permite a los usuarios crear y editar archivos en línea mientras colaboran con otros usuarios en tiempo real. Las ediciones son rastreadas por el usuario con un historial de revisión que presenta los cambios. La posición de un editor se resalta con un color y un cursor específicos del editor y un sistema de permisos regula lo que los usuarios pueden hacer. Las actualizaciones han introducido funciones que utilizan el aprendizaje automático que ofrece respuestas basadas en preguntas de lenguaje natural en una hoja de cálculo.
