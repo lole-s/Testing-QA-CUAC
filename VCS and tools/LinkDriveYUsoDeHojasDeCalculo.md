@@ -66,7 +66,7 @@ Componentes basicos de una hoja de cálculo: https://www.youtube.com/watch?v=w6M
   3. En la hoja "Temas" armar la siguiente tabla:
      | Fecha | Clase n° | Eje | Tema | Actividad |
      |-------|----------|-----|------|-----------|
-     | 2024-02-28 | 1 | 0 | Presentació | Presentacion del espacio curricular |
+     | 2024-02-28 | 1 | 0 | Presentación | Presentación del espacio curricular |
      | 2024-03-04 | 2 | 2 | Trabajo Colaborativo | Uso de drive y google sheet |
   4. Poner en Negrita (CTRL+B) la primer Columna, poner en _cursiva_ (CTRL+I) la casilla 'E1'
   5. Hacer una grilla con bordes en el rango _A1:E80_ 
