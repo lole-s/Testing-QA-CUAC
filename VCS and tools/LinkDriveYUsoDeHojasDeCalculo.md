@@ -75,19 +75,27 @@ Componentes basicos de una hoja de cálculo: https://www.youtube.com/watch?v=w6M
   1. Sobre el mismo documento *\ProA2024\Testing_QA\Testing_Sheet_?????*, crear una nueva Hoja (Hoja 2)
   2. Renombrar la hoja actual "Hoja 2" a  "Ejercicios"
   3. En la hoja "Ejercicios":
-  4. Sobre la columna A:
-      * Sumar los numero enteros desde 1 hasta el 1000
-  5. Sobre las columnas C a F:
-      * Crear un tabla de recibo con las columnas Cantidad | Producto | Precio U. | SubTotal
-      * Hacer las suma de las columna Subtotal y mostrarla abajo en una casilla que se llame NETO TOTAL
-      * Hacer el calculo del IVA  del NETO TOTAL y mostrarlo en una casilla que se llame TOTAL
-      * completar la tabla con 5 productos, con distintas cantidades y valores. Expresar los resultados en pesos.
+  4. Sobre la columna A, listar los números enteros desde 1 hasta el 1000
+  5. Sobre las celda B1, obtener el resultado sumar 1 + 2 + 3 + ... + 1000
  
- **Ejercicio 3:**  
-1. Cree una nueva hoja de cálculo.
-2. Haga un listado de nombres y notas (4 notas) y calcule la media de cada alumno.
-    * copiar el listado nombres de: link lole
-    * La media se puede calcular con la función =AVERAGE(XX:YY) o PROMEDIO(XX:YY) 
-    * Y puede ser calculado tamabien sumando los valores y dividiendolo por la candidad de columnas  
-3. Cambiar nombre a la hoja 1 por "Notas".
-4. Cambiar nombre al documento por "Ejemplo de Tabla de Nota".  
+ **Ejercicio 3:**
+  1. Crear una nuevo Hoja, renombrarla a Recibo
+  2. Crear un tabla de recibo con las columnas Cantidad | Producto | Precio U. | SubTotal
+  3. Hacer las suma de las columna Subtotal y mostrarla abajo en una casilla que se llame NETO TOTAL
+  4. Hacer el cálculo del IVA sobre el NETO TOTAL y mostrarlo en una casilla que se llame TOTAL
+  5. completar la tabla con 5 productos, con distintas cantidades y valores. Expresar los resultados en pesos.
+ 
+ **Ejercicio 4:**
+  1. Cree una nueva Hoja sobre el mismo archivo. y renombrarla a "notas".
+  2. Haga un listado de nombres y notas (4 notas) y calcule la media de cada alumno.
+     * copiar el listado nombres de: link lole
+     * La media se puede calcular con la función =AVERAGE(XX:YY) o PROMEDIO(XX:YY) 
+     * Y puede ser calculado tamabien sumando los valores y dividiendolo por la candidad de columnas  
+ 
+ **Ejercicio 5:**
+  1. Cree un nuevo archivo de Google Sheet llamadado _grafica de funciones_
+  2. Abrirlo y renombrar la primer hoja a _funciones_.
+  3. Crear en A1 una columna llamada **X** que tome valores de -10 a 10
+  4. Crear en B1 una columna llamada **Y1** para almacenar los valores puntules de la función lineal `y = 3x -6` y graficar **x vs. y** , llamando a la gráfica _función lineal_
+  5. Crear en C1 una columna llamada **Y2** para almacenar los valores puntules de la función cuadrática `y = x^2 - 4`  y graficar **x vs. y** , llamando a la gráfica _función cuadrática_
+  6. Crear en D1 una columna llamada **Y3** para almacenar los valores puntules de la función cúbica `y = x^3 + X^2 -3X + 1`  y graficar **x vs. y** , llamando a la gráfica _función cúbica_ 
