@@ -98,4 +98,4 @@ Componentes basicos de una hoja de cálculo: https://www.youtube.com/watch?v=w6M
   3. Crear en A1 una columna llamada **X** que tome valores de -10 a 10
   4. Crear en B1 una columna llamada **Y1** para almacenar los valores puntules de la función lineal `y = 3x -6` y graficar **x vs. y** , llamando a la gráfica _función lineal_
   5. Crear en C1 una columna llamada **Y2** para almacenar los valores puntules de la función cuadrática `y = x^2 - 4`  y graficar **x vs. y** , llamando a la gráfica _función cuadrática_
-  6. Crear en D1 una columna llamada **Y3** para almacenar los valores puntules de la función cúbica `y = x^3 + X^2 -3X + 1`  y graficar **x vs. y** , llamando a la gráfica _función cúbica_ 
+  6. Crear en D1 una columna llamada **Y3** para almacenar los valores puntules de la función cúbica `y = x^3 - X^2 -3X + 1`  y graficar **x vs. y** , llamando a la gráfica _función cúbica_ 
