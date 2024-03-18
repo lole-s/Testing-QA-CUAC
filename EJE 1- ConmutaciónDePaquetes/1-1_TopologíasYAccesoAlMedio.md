@@ -11,3 +11,15 @@ Topolo
 **VPN:** Una VPN, Virtual Private Network (o red privada virtual), crea una conexión de red privada entre dispositivos a través de Internet. Las VPN se utilizan para transmitir datos de forma segura y anónima a través de redes públicas.
 
 **MAC:**  la dirección MAC (siglas en inglés de Media Access Control) es un identificador de 48 bits (6 bloques de dos caracteres hexadecimales 8 bits) que corresponde de forma única a una tarjeta o dispositivo de red. Se la conoce también como dirección física, y es única para cada dispositivo.
+
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/f455770c-da8a-4e8e-ab87-a35635727baa)
+
+Comando: 
+> ipconfig /all
+
+ARP: 
+> arp -a
+
+https://theitcrowdenlinea.blogspot.com/
+
+
