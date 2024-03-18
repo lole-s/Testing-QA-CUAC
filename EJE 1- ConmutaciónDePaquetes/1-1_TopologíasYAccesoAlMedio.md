@@ -1,10 +1,10 @@
-Topolo
+
 **Topologías de red:** Se denomina topología de red a la forma en que se organizan los componentes de una red (cables, tarjetas de red, otros equipos, etc.) Por lo tanto, es la forma, la apariencia de la red.
 
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/3a8563b5-23ed-4673-bd21-ad3a4120274c)
 
 
-**LAN:** Las WAN son las siglas de Wide area network (red de área extendida). Las LAN conectan dispositivos en una proximidad geográfica cercana (en el mismo edificio).
+**LAN:** Las lAN son las siglas de Local area network (red de área local). Las LAN conectan dispositivos en una proximidad geográfica cercana (en el mismo edificio).
 
 **WAN:** Las WAN son las siglas de Wide area network (red de área extendida). Las WAN conectan dispositivos en ubicaciones geográficamente dispersas (en todo el mundo).
 
