@@ -19,7 +19,7 @@ ___
 **Ficha:**
 # Un mundo interconectado... ¿cómo?
 
-Seguro alguna vez escuchamos sobre Internet o la usamos para algo. Pero... ¿Qué pasa cuando mandamos información por la red? ¿Viaja directamente de un celular a otro y si los ponemos más cerca llega más rápido?¿Mis fotos y videos dan la vuelta al mundo?
+Seguro alguna vez escuchamos sobre Internet o la usamos para algo. Pero... ¿Qué pasa cuando mandamos información por la red? ¿Viaja directamente de un celular a otro? ¿Y si los ponemos más cerca llega más rápido?¿Mis fotos y videos dan la vuelta al mundo?
 
 **Parte 1:**
 Armar grupos de 4 integrantes y entre todos piensen y escriban una posible respuesta a cada pregunta:
