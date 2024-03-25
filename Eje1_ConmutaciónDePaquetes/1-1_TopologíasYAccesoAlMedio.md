@@ -21,6 +21,11 @@ ARP:
 > arp -a
 
 ---
+
+Curso ¿Que es una red?.
+https://youtu.be/k2e6eWyn0fE?si=BqoCXP_s6yLNQYdx
+
+---
 topologías: https://youtu.be/Y2L_7ewQteI
 
 
