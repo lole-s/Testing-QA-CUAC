@@ -80,4 +80,14 @@ https://youtu.be/HnkkAi4eZ6c?si=JvNp6H0__dGfG0IK
 ¿Que se internet?: conjunto de redes interconectadas, descentralizadas y con alcance mundial. 
 ¿Que es un protocolo?: Es un conjunto de reglas y especificaciones que rígen las comunicaciones.
 
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/7213e8d3-8b8c-49dd-b114-a315b0e7c805)
+
+prática para hacer en clase: 
+https://blog.smaldone.com.ar/2006/11/21/tutorial-sobre-tcpip/
+
+
+RFCs. 
+https://fastercapital.com/es/contenido/TCP-IP--Explorando-los-RFC-que-definen-la-base-de-las-redes-modernas.html
+
+
 
