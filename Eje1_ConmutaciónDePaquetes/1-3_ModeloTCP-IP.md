@@ -11,6 +11,14 @@ REPASO:
 ¿Que es el protocolo TCP/IP?:
 
 ___ 
+RFCs. 
+https://fastercapital.com/es/contenido/TCP-IP--Explorando-los-RFC-que-definen-la-base-de-las-redes-modernas.html
+
+
+https://blog.smaldone.com.ar/2006/11/02/tcpip-es-simple/
+
+___
+
 curso redes
 https://www.youtube.com/playlist?list=PLg9145ptuAijivEI4t0cb31FA41zqclwO
 
@@ -21,9 +29,6 @@ https://youtu.be/HnkkAi4eZ6c?si=JvNp6H0__dGfG0IK
 
 prática para hacer en clase: 
 https://blog.smaldone.com.ar/2006/11/21/tutorial-sobre-tcpip/
-
-RFCs. 
-https://fastercapital.com/es/contenido/TCP-IP--Explorando-los-RFC-que-definen-la-base-de-las-redes-modernas.html
 
 
 
