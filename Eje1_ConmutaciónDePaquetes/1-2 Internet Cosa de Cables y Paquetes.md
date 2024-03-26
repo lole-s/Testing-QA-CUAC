@@ -46,16 +46,6 @@ ___
 Modalidad de trabajo: En grupos de 5 personas, y la clase completa para el intercambio final.
 Materiales: Pizarrón, proyector y parlantes.
 
-**Desarrollo:** En esta actividad buscaremos una reflexión grupal para construir el concepto de Internet y
-discutir sobre las formas en que viaja la información en la red. Para indagar sobre los conocimientos e ideas previas de los estudiantes y guiar los intercambios de la clase utilizaremos una serie de preguntas y un video disparador.
-
-A lo largo de toda la actividad intentaremos reforzar la idea de Internet como una red de computadoras interconectadas, su alcance mundial y la variedad de los medios por los que viaja la información: las conexiones locales, a través del aire o cables (Wi-Fi, conexión telefónica o fibra óptica) y las conexiones entre países o regiones a través de grandes cables, en su mayoría submarinos, y en menor medida a través de satélites.
-Para comenzar, vamos a repartir las fichas y pedirle a los estudiantes, organizados en grupos de aproximadamente 4 personas, que discutan la primera pregunta de la ficha.
-Recorriendo las discusiones buscaremos orientar las reflexiones grupales sobre el concepto de Internet. ¿Cómo usan la red? ¿Mandan mails, navegan y buscan información, utilizan redes sociales, bajan contenidos? Sin brindar una respuesta acabada, intentaremos que todos los grupos identifiquen que hay dos o más computadoras (entendiendo a los celulares u otros dispositivos como tales) involucradas y conectadas que realizan un intercambio de datos y distintos tipos de información. Luego, en la puesta en común de las respuestas
-escritas por cada grupo, enfatizaremos estos conceptos.
-
-La segunda pregunta nos permite profundizar sobre los medios por los que se intercambia la información. Cuando los grupos expongan sus respuestas, al llegar a esta pregunta podemos escribir en el pizarrón los medios que mencionen: a través de cables, por el aire, etc.
-
 Al terminar la lectura de las respuestas de los grupos vamos a proyectar un video, “El Mapa Digital - Un millón de kilómetros de cable para conectar al mundo”, 
 
 https://www.youtube.com/watch?v=cQVuJte-1dQ
@@ -69,25 +59,3 @@ Finalizada la proyección del video y los intercambios en torno a las preguntas 
 
 **Cierre**
 Para cerrar la actividad, haremos una última puesta en común para repasar los conceptos claves de la actividad y conversar sobre los cambios en las respuestas antes y después de ver el video y escuchar las reflexiones de los grupos. De esta manera se podrá poner en evidencia que pese a la familiaridad con el uso de Internet no se posee un conocimiento profundo respecto a su funcionamiento y la infraestructura física que lo permite.
-
-___ 
-curso redes
-https://www.youtube.com/playlist?list=PLg9145ptuAijivEI4t0cb31FA41zqclwO
-
-CURSO DE REDES - INICIOS DEL MODELO TCP IP
-https://youtu.be/HnkkAi4eZ6c?si=JvNp6H0__dGfG0IK
-
-¿Que se internet?: conjunto de redes interconectadas, descentralizadas y con alcance mundial. 
-¿Que es un protocolo?: Es un conjunto de reglas y especificaciones que rígen las comunicaciones.
-
-![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/7213e8d3-8b8c-49dd-b114-a315b0e7c805)
-
-prática para hacer en clase: 
-https://blog.smaldone.com.ar/2006/11/21/tutorial-sobre-tcpip/
-
-
-RFCs. 
-https://fastercapital.com/es/contenido/TCP-IP--Explorando-los-RFC-que-definen-la-base-de-las-redes-modernas.html
-
-
-
