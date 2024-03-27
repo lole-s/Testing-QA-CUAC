@@ -10,7 +10,7 @@
    _links de interes:_
       * https://veyon.io/
         
-5. _**pbxPROA**_: Instalación y configuración de una central telefónica PBX y sus extensiones telefónicas para toda la escuela. Los estudiantes utilizarán la PBX _Xorcom_, con la que cuenta en establecimiento y esta en desuso, y el como softphone sugerido se propone el _x-lite_. El objetivo es comprender que es el protocolo SIP y establecer un sistema de comunicación telefónica eficiente en la institución.
+5. _**pbxPROA**_: Instalación y configuración de una central telefónica PBX y sus extensiones telefónicas para toda la escuela. Los estudiantes utilizarán la PBX _Xorcom_, con la que cuenta en establecimiento y esta en desuso, como softphone sugeridos se proponen _x-lite_ y _Linphone_  El objetivo es comprender que es el protocolo SIP y establecer un sistema de comunicación telefónica eficiente en la institución.
 
    _links de interes:_
     * https://xorcom.com/techdocs/datasheet-cxr2000-es.pdf
