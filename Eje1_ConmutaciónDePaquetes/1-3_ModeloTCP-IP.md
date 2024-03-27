@@ -12,6 +12,7 @@ REPASO:
 
 ___ 
 
+
 ISO / ITU / OSI 
 https://danimoreblog.wordpress.com/2013/05/29/rfc-y-osi/
 
@@ -40,4 +41,7 @@ prática para hacer en clase:
 https://blog.smaldone.com.ar/2006/11/21/tutorial-sobre-tcpip/
 
 
-
+trama 
+encapsulación
+iana 
+lanic 
