@@ -8,7 +8,8 @@ REPASO:
 ¿Que son los protocolos para las telecomunicaciones comunicaciones? 
     Es un conjunto de reglas y especificaciones que rígen las comunicaciones.
 
-¿Que es el protocolo TCP/IP?:
+¿Que es el protocolo TCP/IP?: Conjunto de protocolos de red que permite la comunicación de datos entre dispositivos de redes informaticas. Creado en la decada del 70 y estandarizado en 1984 por la IETF. 
+
 
 ___ 
 
