@@ -2,10 +2,10 @@ REPASO:
 ¿Que es la topología de red?
     Es la forma en que se organizan los componentes de una red. Por lo tanto, es la forma, la apariencia de la red.
 
-¿Que se internet?
+¿Que ee internet?
   Conjunto de redes interconectadas, descentralizadas y con alcance mundial. 
 
-¿Que son los protocolos para las telecomunicaciones comunicaciones? 
+¿Que son los protocolos en el ámbito de las telecomunicaciones? 
     Es un conjunto de reglas y especificaciones que rígen las comunicaciones.
 
 ¿Que es el protocolo TCP/IP?: Conjunto de protocolos de red que permite la comunicación de datos entre dispositivos de redes informaticas. Creado en la decada del 70 y estandarizado en 1984 por la IETF. 
