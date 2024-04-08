@@ -1,5 +1,6 @@
 
-## ACTIVIDAD La libreta de direcciones
+## ACTIVIDAD 
+#### La libreta de direcciones
 
 Hace algunos años teniamos que recordar muchos números de teléfono y los que no, los anotabamos en una agenda. Con la ayuda de los celulares y la información digital, cada vez necesitamos menos recordar números largos.
 
@@ -30,15 +31,32 @@ Luego, organizados en grupos, discutan y respondan las siguientes preguntas:
 
 
 _____
+Hub - Switch - Router 
+https://www.youtube.com/watch?v=Gky8-OVYmT4
+
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/69285646-7b54-4644-ab2a-93b85211c20c)
+
+_____
 El dato
 
-Si las IPs son tan difíciles de recordar, ¿para qué existen? Los motivos son varios, pero
-hay uno que resulta particularmente interesante: el poco espacio que ocupan. Cualquier
-IP se puede representar con tan solo 4 bytes, mientras que para guardar texto se utiliza un
-byte por caracter; si quisiéramos representar algo tan corto como gnu.org necesitaríamos
-7 bytes... ¡casi el doble!
+Si las IPs son tan difíciles de recordar, ¿para qué existen? Los motivos son varios, pero hay uno que resulta particularmente interesante: el poco espacio que ocupan. Cualquier IP se puede representar con tan solo 4 bytes, mientras que para guardar texto se utiliza un byte por caracter; si quisiéramos representar algo tan corto como gnu.org necesitaríamos 7 bytes... ¡casi el doble!
 
-Por esto y por la facilidad que tiene la computadora para hacer cuentas con estos
-números es que se utilizan las IPs. Las personas recordamos las palabras con más
-facilidad ya que además permiten asociar el nombre de dominio con el contenido de la
-página, por esta razón existen ambas formas.
+Por esto y por la facilidad que tiene la computadora para hacer cuentas con estos números es que se utilizan las IPs. Las personas recordamos las palabras con más facilidad ya que además permiten asociar el nombre de dominio con el contenido de la página, por esta razón existen ambas formas.
+
+____
+
+#### ARP 
+https://www.youtube.com/watch?v=UFa9O0GfnsY
+
+#### DHCP           
+https://www.youtube.com/watch?v=K07wzpcKrsk
+
+#### DNS 
+https://www.youtube.com/watch?v=gAstDaSaaWU
+
+#### IP publicas y privadas
+https://youtu.be/9oO_F7U4T4M
+
+
+
+
