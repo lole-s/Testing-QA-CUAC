@@ -57,6 +57,11 @@ https://www.youtube.com/watch?v=gAstDaSaaWU
 #### IP publicas y privadas
 https://youtu.be/9oO_F7U4T4M
 
+#### IANA
+https://www.youtube.com/watch?v=IvVv-BaIiLk
+
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/6341c88c-864d-4ab8-a88e-479d39dd4e1d)
+
 
 
 
