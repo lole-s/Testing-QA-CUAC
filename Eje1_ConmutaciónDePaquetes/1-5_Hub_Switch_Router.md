@@ -7,10 +7,9 @@
 
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/1e18d924-c74e-441e-a580-90a51523dcb8)
 
-Dirección MAC: es un identificador de 48 bits (6 bloques de dos caracteres hexadecimales 8 bits) que corresponde de forma única a una tarjeta o dispositivo de red. Se la conoce también como dirección física, y es única para cada dispositivo.
+* **Dirección MAC**: es un identificador de 48 bits (6 bloques de dos caracteres hexadecimales 8 bits) que corresponde de forma única a una tarjeta o dispositivo de red. Se la conoce también como dirección física, y es única para cada dispositivo.
 
-Dirección IP: 
-
+* **Dirección IP**: Una dirección IP es un número de 32 bits. Identifica de forma única un host (equipo u otro dispositivo, como una impresora o enrutador) en una red TCP/IP. Las direcciones IP normalmente se expresan en formato decimal punteado, con cuatro números separados por puntos, como 192.168.123.132.
 ____
 
 Hub:
