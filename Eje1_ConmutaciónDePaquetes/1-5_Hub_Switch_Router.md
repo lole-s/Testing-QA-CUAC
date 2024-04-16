@@ -47,6 +47,7 @@ Comandos:
 > >netstat -r
 
 ____
+
 ##### MODELO CLIENTE SERVIDOR 
 El modelo cliente-servidor es un estilo arquitectónico para aplicaciones distribuidas. 
 Evolucionó en paralelo a las propias redes En este modelo existe una clara separación de las tareas:
@@ -55,7 +56,7 @@ Evolucionó en paralelo a las propias redes En este modelo existe una clara sepa
 
     ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/5228863d-9183-4b13-9b9a-de17b8c52776)
 
-##### MODELO CLIENTE SERVIDOR 
+##### MODELO P2P 
 El modelo par-a-par se diferencia del modelo anterior en que no distingue entre clientes y servidores
 * En cierta forma, todos los nodos de la red son tanto clientes como servidores
 * Fue propuesto para atacar un problema inherente al modelo anterior: su compleja escalabilidad
@@ -103,9 +104,3 @@ https://youtu.be/9oO_F7U4T4M
 https://www.youtube.com/watch?v=IvVv-BaIiLk
 
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/6341c88c-864d-4ab8-a88e-479d39dd4e1d)
-
-
-
-
-
-
