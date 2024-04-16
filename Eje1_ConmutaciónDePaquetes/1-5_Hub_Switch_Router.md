@@ -13,11 +13,16 @@
 ____
 
 Hub:
+
 Switch: 
+
 Router: 
 
+
 DHCP: 
+
 Ping/ICMP:
+
 ARP/MAC:
 _____
 
@@ -31,11 +36,15 @@ https://www.youtube.com/watch?v=Gky8-OVYmT4
 ___
 Comandos: 
 
-> arp -a
-> ping
-> tracert
-> netstat -n
-> netstat -r
+> >arp -a
+
+> >ping 
+
+> >tracert
+ 
+> >netstat -n
+
+> >netstat -r
 
 ____
 ##### MODELO CLIENTE SERVIDOR 
