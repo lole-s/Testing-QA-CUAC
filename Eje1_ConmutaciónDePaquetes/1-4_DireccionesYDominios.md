@@ -30,11 +30,6 @@ Luego, organizados en grupos, discutan y respondan las siguientes preguntas:
 
 
 
-_____
-Hub - Switch - Router 
-https://www.youtube.com/watch?v=Gky8-OVYmT4
-
-![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/69285646-7b54-4644-ab2a-93b85211c20c)
 
 _____
 El dato
@@ -44,24 +39,4 @@ Si las IPs son tan difíciles de recordar, ¿para qué existen? Los motivos son 
 Por esto y por la facilidad que tiene la computadora para hacer cuentas con estos números es que se utilizan las IPs. Las personas recordamos las palabras con más facilidad ya que además permiten asociar el nombre de dominio con el contenido de la página, por esta razón existen ambas formas.
 
 ____
-
-#### ARP 
-https://www.youtube.com/watch?v=UFa9O0GfnsY
-
-#### DHCP           
-https://www.youtube.com/watch?v=K07wzpcKrsk
-
-#### DNS 
-https://www.youtube.com/watch?v=gAstDaSaaWU
-
-#### IP publicas y privadas
-https://youtu.be/9oO_F7U4T4M
-
-#### IANA
-https://www.youtube.com/watch?v=IvVv-BaIiLk
-
-![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/6341c88c-864d-4ab8-a88e-479d39dd4e1d)
-
-
-
 
