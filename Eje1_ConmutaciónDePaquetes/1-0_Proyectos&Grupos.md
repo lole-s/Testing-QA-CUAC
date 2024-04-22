@@ -22,8 +22,10 @@
   3. Thiago, Agustín, Lihue, Cristian, Tiziano F., Jeriemías. Proyecto 1: RadioPROA
 
      Duración del proceso: 5 semanas - Fecha de entrega: 20 de Mayo
+
      Entregables:
-        2 Documentos
+     A- Dos Documentos
+
         * Proyecto
 
            https://leo.uniandes.edu.co/guia-para-redactar-un-proyecto/
@@ -32,7 +34,7 @@
 
              https://www.techsmith.es/blog/manual-usuario/
         
-        * Extensión de documentos: 5pag.(min)  a 50pag.(max)
+              nota - Extensión de documentos: 5pag.(min)  a 50pag.(max)
    
-   Presentación del proyecto en grupos.  
+      B- Presentación del proyecto en grupos.  
      
