@@ -26,9 +26,9 @@
         2 Documentos
         * Proyecto
              https://leo.uniandes.edu.co/guia-para-redactar-un-proyecto/
-        * GuÍa o  Manual de Usuario
+        * Guía o  Manual de Usuario
              https://www.techsmith.es/blog/manual-usuario/
-        * Extension de documentos: 5pag.(min)  a 50pag.(max)
+        * Extensión de documentos: 5pag.(min)  a 50pag.(max)
    
    Presentación del proyecto en grupos.  
      
