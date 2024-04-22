@@ -25,9 +25,13 @@
      Entregables:
         2 Documentos
         * Proyecto
-             https://leo.uniandes.edu.co/guia-para-redactar-un-proyecto/
+
+           https://leo.uniandes.edu.co/guia-para-redactar-un-proyecto/
+        
         * Guía o  Manual de Usuario
+
              https://www.techsmith.es/blog/manual-usuario/
+        
         * Extensión de documentos: 5pag.(min)  a 50pag.(max)
    
    Presentación del proyecto en grupos.  
