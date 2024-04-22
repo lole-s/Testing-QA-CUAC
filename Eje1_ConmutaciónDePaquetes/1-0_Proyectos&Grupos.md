@@ -23,9 +23,12 @@
 
      Duración del proceso: 5 semanas - Fecha de entrega: 20 de Mayo
      Entregables:
-        2 Documentos -
+        2 Documentos
         * Proyecto
-        * Guia de Usuario
-        * Extension: 5min  a 50max paguinas
-   Presentacion del proyecto 
+             https://leo.uniandes.edu.co/guia-para-redactar-un-proyecto/
+        * GuÍa o  Manual de Usuario
+             https://www.techsmith.es/blog/manual-usuario/
+        * Extension de documentos: 5pag.(min)  a 50pag.(max)
+   
+   Presentación del proyecto en grupos.  
      
