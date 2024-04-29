@@ -3,6 +3,7 @@
 
    _links de interes:_
       * https://radioslibres.net/curso-virtual-radio-en-linea/
+         *  https://radioslibres.net/servidor-de-streaming/
       * https://blog.infranetworking.com/hacer-radio-online-con-vps/
    
 2. _**controlPROA**_: Implementación y configuración de un software de control y administración de computadoras en la red LAN del laboratorio de informática. Los estudiantes trabajarán con el software sugerido _**Veyon**_ para gestionar y supervisar las actividades en las computadoras de la red.
