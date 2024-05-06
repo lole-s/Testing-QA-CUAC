@@ -16,7 +16,8 @@
    _links de interes:_
     * https://xorcom.com/techdocs/datasheet-cxr2000-es.pdf
     * https://xorcom.com/techdocs/CompletePBX-v5_User_Manual.pdf
-         ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/085fc4d4-3eb9-4b9a-bcae-dd7d5a69ee44)
+         ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/02963e6c-1bfe-4ca6-b09f-7c3dbe25f8b8)
+
 
 **Grupos propuestos:**  
   1. Aaron, Lisando, Aylen, Ignacio, Facundo, Nazarena, Santiago. Proyecto 3: pbxPROA
