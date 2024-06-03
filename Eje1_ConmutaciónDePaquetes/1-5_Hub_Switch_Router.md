@@ -69,23 +69,26 @@ El modelo par-a-par se diferencia del modelo anterior en que no distingue entre 
 Los usuarios necesitan poder usar sus programas de aplicación
 A su vez, los programas de aplicación necesitan poder enviar y recibir información por la red
 
-La red provee esencialmente dos servicios que para eseobjetivo:
+La red provee esencialmente dos servicios que para ese objetivo:
+
 Establecer una comunicación orientada a la conexión (TCP)
   * Asegura la transmisión confiable y ordenada de un flujo de bytes
   * Implementa control de flujo y gestión de congestión
+
 Establecer una comunicación sin conexión (UDP)
   * No asegura la transmisión confiable
   * No implementa control de flujo ni gestión de la congestión
 
 **Ejemplos prácticos**
+
 _Comunicación orientada a la conexión:_
  *   El protocolo HTTP de la web
  *   Los protocolos SMTP, POP e IMAP para acceder al correo electrónico
+
 _Comunicación no orientada a la conexión:_
  *  El protocolo DNS para acceder a los servidores de dominio
- *  Los protocolos para transportar audio y/o video en tiempo real (por caso, Skype o WhatsApp)
- *  Los protocolos de los juegos en línea
-
+ *  Los protocolos para transportar audio y/o video en tiempo real (por caso, SIP, RTP)
+   
 ___
 #### OTROS VIDEOS
 
