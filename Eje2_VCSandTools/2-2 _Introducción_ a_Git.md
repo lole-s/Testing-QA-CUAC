@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
        
 2 - Historia de Git
 
-**Git was created for use in the development of the Linux kernel by _**Linus Torvalds**_ and others developing the kernel.**
+**Git was created for use in the development of the Linux kernel by _**Linus Torvalds**_ and others developing the kernel. 2005**
 
   ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/99bf0c9b-9dae-403f-a396-34647122bbd6)
 
