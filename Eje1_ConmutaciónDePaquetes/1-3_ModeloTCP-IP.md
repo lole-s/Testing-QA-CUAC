@@ -2,7 +2,7 @@ REPASO:
 **¿Que es la topología de red?**    
 Es la forma en que se organizan los componentes de una red. Por lo tanto, es la forma, la apariencia de la red.
 
-**¿Que ee internet?**
+**¿Que es internet?**
   Conjunto de redes interconectadas, descentralizadas y con alcance mundial. 
 
 **¿Que son los protocolos en el ámbito de las telecomunicaciones?**    
