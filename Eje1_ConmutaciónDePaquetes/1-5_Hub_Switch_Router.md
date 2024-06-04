@@ -12,13 +12,13 @@
 * **Dirección IP**: Una dirección IP es un número de 32 bits. Identifica de forma única un host (equipo u otro dispositivo, como una impresora o enrutador) en una red TCP/IP. Las direcciones IP normalmente se expresan en formato decimal punteado, con cuatro números separados por puntos, como 192.168.123.132.
 ____
 
-#### RED DE COMUTADORAS
+#### RED DE COMPUTADORAS
 
 > Una red de computadoras, red de ordenadores o red informática es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
 
 > Para poder formar una red se requieren elementos: **hardware, software y protocolos**.
 
-Los elementos físicos (hardware) se clasifican en dos grandes grupos:
+> Los elementos físicos (hardware) se clasifican en dos grandes grupos:
 
 >  * dispositivos de usuario final (hosts) : computadoras, servidores, impresoras, y demás elementos que esten conectada a una red a con un número de IP definidos. Su función es proporcionarle recursos, información y servicios directamente a los usuarios.
 >  * dispositivos de red: son todos aquellos que conectan entre sí a los dispositivos de usuario final, posibilitando su intercomunicación.
