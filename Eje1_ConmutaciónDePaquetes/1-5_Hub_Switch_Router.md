@@ -12,12 +12,23 @@
 * **Dirección IP**: Una dirección IP es un número de 32 bits. Identifica de forma única un host (equipo u otro dispositivo, como una impresora o enrutador) en una red TCP/IP. Las direcciones IP normalmente se expresan en formato decimal punteado, con cuatro números separados por puntos, como 192.168.123.132.
 ____
 
+#### RED DE COMUTADORAS
+
+> Una red de computadoras, red de ordenadores o red informática es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios
+> Para poder formar una red se requieren elementos: hardware, software y protocolos. Los elementos físicos se clasifican en dos grandes grupos:
+>  * dispositivos de usuario final (hosts) : computadoras, servidores, impresoras, y demás elementos que esten conectada a una red a con un número de IP definidos. Su función es proporcionarle recursos, información y servicios directamente a los usuarios.
+>  * dispositivos de red: son todos aquellos que conectan entre sí a los dispositivos de usuario final, posibilitando su intercomunicación.
+
+## Entre los dispositivos de red se destacan:  
+
 **Hub ( Concentrador )**: Es un dispositivo de red que se utiliza para conecta varios dispositivos (computadortas) entre sí. Es un dispositivo pasivo, lo que significa que no realiza ninguna manipulación de los datos recibe, solo transmite los paquetes a todos los puertos que contenga, esto es, si contiene 8 puertos, todas las computadoras que estén conectadas a dichos puertos recibirán la misma información. Por lo tanto, los hubs actúa sólo en el nivel físico o capa 1 del modelo OSI. **OBSOLETOS**
  
 **Switch (Conmutador)**: es el dispositivo digital lógico de interconexión de equipos que opera en la capa de enlace de datos del modelo OSI (capa 2). Su función es interconectar dos o más host e intercambiar los datos transmitidos entre ellos de acuerdo a la dirección MAC de destino de las tramas o paquetes, mejorando el rendimiento y la seguridad de las redes de área local (LAN).
 
 **Router**: también conocido como enrutador o encaminador — es un dispositivo que proporciona conectividad a nivel de red o nivel tres en el modelo OSI. Su función principal consiste en enviar o encaminar paquetes de datos de una red a otra, es decir, **interconecta subredes**.
+
 ____
+
 ###### Protocolos Relacionados: 
 
 **DHCP** (Dynamic Host Configuration Protocol): es un protocolo cliente-servidor que proporciona automáticamente a los host de una red su dirección IP y otra información de configuración relacionados como por ejemplo, la puerta de enlace predeterminada y la máscara de subred. RFC 2131 y 2132 definen DHCP como un estándar de Internet Engineering Task Force (IETF)
