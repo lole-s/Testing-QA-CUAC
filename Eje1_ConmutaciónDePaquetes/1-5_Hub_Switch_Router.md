@@ -14,8 +14,12 @@ ____
 
 #### RED DE COMUTADORAS
 
-> Una red de computadoras, red de ordenadores o red informática es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios
-> Para poder formar una red se requieren elementos: hardware, software y protocolos. Los elementos físicos se clasifican en dos grandes grupos:
+> Una red de computadoras, red de ordenadores o red informática es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+
+> Para poder formar una red se requieren elementos: **hardware, software y protocolos**.
+
+Los elementos físicos (hardware) se clasifican en dos grandes grupos:
+
 >  * dispositivos de usuario final (hosts) : computadoras, servidores, impresoras, y demás elementos que esten conectada a una red a con un número de IP definidos. Su función es proporcionarle recursos, información y servicios directamente a los usuarios.
 >  * dispositivos de red: son todos aquellos que conectan entre sí a los dispositivos de usuario final, posibilitando su intercomunicación.
 
@@ -25,7 +29,12 @@ ____
  
 **Switch (Conmutador)**: es el dispositivo digital lógico de interconexión de equipos que opera en la capa de enlace de datos del modelo OSI (capa 2). Su función es interconectar dos o más host e intercambiar los datos transmitidos entre ellos de acuerdo a la dirección MAC de destino de las tramas o paquetes, mejorando el rendimiento y la seguridad de las redes de área local (LAN).
 
-**Router**: también conocido como enrutador o encaminador — es un dispositivo que proporciona conectividad a nivel de red o nivel tres en el modelo OSI. Su función principal consiste en enviar o encaminar paquetes de datos de una red a otra, es decir, **interconecta subredes**.
+**Router**: también conocido como enrutador o encaminador — es un dispositivo que proporciona conectividad a nivel de red o nivel tres en el modelo OSI. Su función principal consiste en enviar o encaminar datos de una red a otra de acuerdo a la dirección IP destino del los paquetes IP, es decir, **interconecta subredes**.
+
+
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/f42825c5-4971-4194-ac67-9f1920af0298)
+
+
 
 ____
 
