@@ -1,4 +1,7 @@
-https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
+Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
+
+Apunte de Majo: https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view
+
 
 ### 1 - Introducción a GIT
 
