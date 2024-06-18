@@ -99,7 +99,7 @@ GIT BASH es una herramienta de línea de comandos para Windows que nos permite e
 
 💡 Tip: Bash significa Bourne Again Shell. Un bash es una aplicación usada para interactuar con el sistema operativo de una computadora a través de comandos.
 
-![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/bd8d4c71-f0bb-48ea-9d0b-d919fb546273)
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/febcb0f2-f618-460d-a2b2-ef9565ae65a7)
 
 Una vez que el proceso haya terminado correctamente, compruebe la instalación ejecutando git de prueba con:
 
