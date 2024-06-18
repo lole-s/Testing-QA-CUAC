@@ -41,7 +41,7 @@ Desde que en 2005, el ingeniero de software Linus Torvalds (padre del kernel del
 
 **¿Cómo funciona Git al momento de administrar mi proyecto?**
 
-Entender el funcionamiento de Git normalmente es muy fácil, pero se vuelve confuso al momento de llevarle a la práctica. Para simplificar  tratemos de verlo en  imágenes:
+Entender el funcionamiento de Git normalmente es muy fácil, pero se vuelve confuso al momento de llevarlo a la práctica. Para simplificar  tratemos de verlo en  imágenes:
 
 ###### Primero: tanto al momento de crear un proyecto como cuando lo clonamos, tendremos 3 áreas de importancia que son parte del software Git:
 
@@ -66,6 +66,8 @@ Este es el conjunto de archivos y cambios que serán incluidos en el siguiente c
 Un commit es como una "foto" de tu proyecto en un momento en particular. Un commit registra un cambio que se realizó en el proyecto. Tú escoges cuándo crear un commit y qué incluir en el commit.
   * Para describir los cambios registrados en un commit, escribimos un mensaje de commit que podemos verificar al trabajar en el proyecto.
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/208310a1-a83f-4ee7-b42a-662682ca584b)
+
+
 
 **Rama (Branch)**
 Una rama es una línea independiente de desarrollo de un proyecto que es administrada y rastreada por Git. Cada proyecto iniciar con una rama por defecto que normalmente llamamos main. Podemos crear una rama para trabajar en un aspecto nuevo del proyecto sin afectar la versión principal.
