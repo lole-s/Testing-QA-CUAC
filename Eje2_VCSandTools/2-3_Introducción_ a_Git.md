@@ -39,7 +39,18 @@ Desde que en 2005, el ingeniero de software Linus Torvalds (padre del kernel del
 
 ### 3 -  Conceptos básicos de Git
 
-Los siguientes conceptos son esenciales para trabajar con Git:
+**¿Cómo funciona Git al momento de administrar mi proyecto?**
+
+Entender el funcionamiento de Git normalmente es muy fácil, pero se vuelve confuso al momento de llevarle a la práctica. Para simplificar  tratemos de verlo en  imágenes:
+
+###### Primero: tanto al momento de crear un proyecto como cuando lo clonamos, tendremos 3 áreas de importancia que son parte del software Git:
+
+**La carpeta (directirio) o área de trabajo (Working Área)**
+**El área de ensayo o preparación (Stagin Área)**
+**Nuestro repositorio local («.git»)**
+
+Los siguientes conceptos son esenciales para trabajar con Git.
+
 
 **Repositorio (Repository)**
 Un repositorio es donde Git almacena los archivos de tu proyecto y las distintas versiones de tus archivos. Un repositorio puede ser local o remoto. Un repositorio local se guarda de forma local en tu computadora. Un repositorio remoto se guarda en los servidores del servicio de hosting que escojas (por ejemplo, GitHub).
@@ -66,11 +77,12 @@ Podemos combinar o fusionar (merge) ramas si necesitamos incorporar los cambios 
 
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/a8c53866-0830-4b1d-8180-d473ad1d0023)
 
-### 4 - Instalación de Git
+### 5 - Instalación de Git
 
 Git es una herramienta por consola de comandos que se integra bastante bien en los principales editores de programación existente. A continuación te indicamos cómo instalarlo para los diferentes sistemas operativos.
 
 **Instalar Git en Ubuntu**
+
 La instalación de git en Ubuntu no puede ser más fácil. Sólo hay que abrir un terminal de comandos y ejecutar: 
 
 > sudo apt install git
@@ -95,19 +107,33 @@ Una vez que el proceso haya terminado correctamente, compruebe la instalación e
 
 ### 4 - Comandos básicos de la terminal
 
-Abrir  gitBash
-Creo una carpeta de proyecto nuevo
+Vamos a crear un proyecto sencillo con Git en forma local para entender cómo funciona y los comandos básicos a utilizar. 
+Para ello les sugiero que sigan los pasos que se detallan a continuación y traten de memorizar cada comando y para qué sirve. 
+Y por cierto, también puede que sientas alguna algun rechazo al trabajar en la consola, no te preocuparse, existen aplicaciones gráficas para Git de forma que podrám trabajar de forma mas «intuitiva». Pero comencemos  aprendiendo los comandos con la consola y después sintanse libres de saltar al entorno gráfico, algún día lo agradecerán!
+
+Abrir  Git Bash --> Luego de la instalción, localizar en acceso a la consola "Git Bash"
+
+Crear una carpeta de proyecto nuevo
 > mkdir miProyectoLole
-Creo un archivo en mi proyecto
+
+Crear un archivo en la carpeta del proyecto
+> cd miProyectoLole
 > touch hola.py
+
 Listamos los archivos y directorios de nuestro proyecto
 > ls -alh
+
 Ahora es momento de iniciar Git dentro de esta carpeta para convertirla en un repositorio. De lo contrario no podríamos trabajar con git, dentro de la carpeta debe haber otra carpeta oculta llamada «.git». Para inicializar Git en una carpeta de tu proyecto debes usar el comando:
 > git init    
+
 O bien si no quieres posicionarte en la carpeta puedes darle la dirección de la misma como argumento al comando
+
 > git init "directorio"
+
 Listamos nuevamente los archivos y directorios de nuestro proyecto
+
 > ls -alh
+
 y vemos que se ha creado el directirio ".git"
 
 **Status:** 
