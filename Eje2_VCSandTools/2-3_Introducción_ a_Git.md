@@ -1,31 +1,18 @@
-Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
-
-Apunte de Majo: https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view
-
-
 ### 1 - Introducción a GIT
 
 Trabajar con nuesto código de forma segura es tan importante como aparender a programar. 
   
-  Hay dos conceptos distintos que vamos a trabajar en este eje, **Git** y **GitHub**
-_____
+Hay dos conceptos distintos que vamos a trabajar en este eje, **Git** y **GitHub**
 
-Desde que en 2005, el ingeniero de software Linus Torvalds (padre del kernel del sistema operativo Linux) diseño Git como un sistema de código abierto con el que supervisar la versiones, este ha ido evolucionando y presentando actualizaciones periódicas, adaptándose a las necesidades que surgen con la permanente evolución de la tecnología digital hasta convertirse en una herramienta indispensable para la mayoría de los desarrolladores.
+###### Git es un VCS de código abierto rápido, versátil, muy escalable y gratuito. 
 
-La principal diferencia con respecto a otros sistemas de control es que se basa en una arquitectura distribuida, es decir, no cuenta con un único espacio en donde almacenar el histórico de versiones sino que facilita que cada desarrollador pueda guardar el historial completo de todas las modificaciones que ha realizado. Probablemente, esa característica sea la principal causa de su popularidad, pero hay otras muchas claves:
+Git es un sistema distribuido, lo que significa que el historial completo de un proyecto se almacena en el cliente y en el servidor. Se pueden editar archivos sin conexión de red, protegerlos localmente y sincronizarlos con el servidor cuando una conexión esté disponible. Si un servidor deja de funcionar, todavía tendrá una copia local del proyecto. Técnicamente, ni siquiera es necesario tener un servidor. Los cambios pueden pasarse por correo electrónico o compartirse mediante medios extraíbles, pero, en la práctica, nadie usa Git así.
 
-* El almacenamiento de archivos se realiza teniendo en cuenta su contenido y no su nombre.
-* Ofrece máxima garantía de seguridad a la hora de salvaguardar la integridad del código y la relación de cambios, de tal manera que permite la trazabilidad en todo el proceso.
-* Su flexibilidad lo hace compatible con un buen número de sistemas y con cualquier equipo, facilita el trabajo independientemente de la envergadura del proyecto y permite diferentes flujos de trabajo de desarrollo no lineal.
-* No solo alberga modificaciones de código, también todas aquellas ope*
-* Su rendimiento es incuestionable y facilita que trabajen varios desarrolladores en un mismo proyecto.
-* Su popularidad es tal que además cuenta ya con infinidad de software como aportación de la comunidad que lo emplea y que, además, produce constantemente material sobre. Git, como tutoriales o manuales.
+###### GitHub es una plataforma en la nube que usa Git como tecnología principal. 
 
-GitHub es un portal multiplataforma diseñado para administrar las aplicaciones que recurren a Git, permitiendo la descarga de sus diferentes versiones. Funciona como una red social que conecta a desarrolladores y usuarios con el fin de ir introduciendo constantemente mejoras. Por una parte, los primeros cuelgan en la plataforma el código de sus aplicaciones, dejando vía libre para que los segundos puedan participar en su evolución.
+Gihub Simplifica eFunciona como una red social que conecta a desarrolladores y usuarios con el fin de ir introduciendo constantemente mejoras, simplificando el proceso de colaboración en proyectos y proporciona un sitio web, más herramientas de línea de comandos y un flujo integral que los desarrolladores y usuarios pueden usar para trabajar juntos. GitHub actúa como el repositorio remoto mencionado anteriormente.
 
-_____
-
-  En esta primer seccion nos vamos a concentrar unicamente de **Git**. 
+En esta primer seccion nos vamos a concentrar unicamente de **Git**. 
     
   * Git, es independiente de GitHub. GitHub depende de Git
   * Web oficial de GIT es: https://git-scm.com
@@ -33,7 +20,14 @@ _____
   * Git es un sistema de control de versiones distribuido.
   * Libro oficial en español: https://git-scm.com/book/es/v2
   
-  
+La principal diferencia con respecto a otros sistemas de control es que se basa en una arquitectura distribuida, es decir, no cuenta con un único espacio en donde almacenar el histórico de versiones sino que facilita que cada desarrollador pueda guardar el historial completo de todas las modificaciones que ha realizado. Probablemente, esa característica sea la principal causa de su popularidad, pero hay otras muchas claves:
+
+* El almacenamiento de archivos se realiza teniendo en cuenta su contenido y no su nombre.
+* Ofrece máxima garantía de seguridad a la hora de salvaguardar la integridad del código y la relación de cambios, premitiendo la trazabilidad en todo el proceso.
+* Su flexibilidad facilita el trabajo independientemente de la envergadura del proyecto y permite diferentes flujos de trabajo de desarrollo no lineal.
+* No solo alberga modificaciones de código, también todas aquellas operaciones relacionadas con las ramas y las etiquetas.
+* Su rendimiento es incuestionable y facilita que trabajen varios desarrolladores en un mismo proyecto.
+* Su popularidad es tal que además cuenta ya con infinidad de software como aportación de la comunidad que lo emplea y que, además, produce constantemente material como tutoriales o manuales.
        
 ### 2 - Historia de Git
 
@@ -41,8 +35,119 @@ _____
 
   ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/99bf0c9b-9dae-403f-a396-34647122bbd6)
 
+Desde que en 2005, el ingeniero de software Linus Torvalds (padre del kernel del sistema operativo Linux) diseño Git como un sistema de código abierto con el que supervisar la versiones, este ha ido evolucionando y presentando actualizaciones periódicas, adaptándose a las necesidades que surgen con la permanente evolución de la tecnología digital hasta convertirse en una herramienta indispensable para la mayoría de los desarrolladores.
 
-### 3 - Instalación de Git
+### 3 -  Conceptos básicos de Git
+
+Los siguientes conceptos son esenciales para trabajar con Git:
+
+**Repositorio (Repository)**
+Un repositorio es donde Git almacena los archivos de tu proyecto y las distintas versiones de tus archivos. Un repositorio puede ser local o remoto. Un repositorio local se guarda de forma local en tu computadora. Un repositorio remoto se guarda en los servidores del servicio de hosting que escojas (por ejemplo, GitHub).
+
+**Directorio de trabajo (Working directory)**
+Este es el directorio del proyecto en el sistema de archivos, donde se guardan los archivos. Esta es, por ejemplo, la carpeta que abres en tu editor de código o IDE para trabajar con tus archivos.
+
+**Área de preparación (Staging area)**
+Este es el conjunto de archivos y cambios que serán incluidos en el siguiente commit. Podemos agregar y remover archivos de esta área si es necesario.
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/86678da4-5858-4a1b-ac28-8edd56da062a)
+
+**Commit**
+Un commit es como una "foto" de tu proyecto en un momento en particular. Un commit registra un cambio que se realizó en el proyecto. Tú escoges cuándo crear un commit y qué incluir en el commit.
+  * Para describir los cambios registrados en un commit, escribimos un mensaje de commit que podemos verificar al trabajar en el proyecto.
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/208310a1-a83f-4ee7-b42a-662682ca584b)
+
+**Rama (Branch)**
+Una rama es una línea independiente de desarrollo de un proyecto que es administrada y rastreada por Git. Cada proyecto iniciar con una rama por defecto que normalmente llamamos main. Podemos crear una rama para trabajar en un aspecto nuevo del proyecto sin afectar la versión principal.
+
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/09690117-2d33-4c8c-a922-e9f4d32ddc87)
+
+**Fusionar (Merge)**
+Podemos combinar o fusionar (merge) ramas si necesitamos incorporar los cambios que hicimos en una rama en otra rama. Esto es lo que normalmente hacemos cuando un aspecto nuevo está listo para ser incorporado a la versión en vivo del proyecto.
+
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/a8c53866-0830-4b1d-8180-d473ad1d0023)
+
+### 4 - Instalación de Git
+
+Git es una herramienta por consola de comandos que se integra bastante bien en los principales editores de programación existente. A continuación te indicamos cómo instalarlo para los diferentes sistemas operativos.
+
+**Instalar Git en Ubuntu**
+La instalación de git en Ubuntu no puede ser más fácil. Sólo hay que abrir un terminal de comandos y ejecutar: 
+
+> sudo apt install git
+
+**Instalar Git en Windows**
+
+Sólo debe descargarse el instalador correspondiente desde la página oficial del proyecto Git y descargar el instalador correspondiente al sistema operativo usado teniendo en cuenta la arquitectura de nuestro sistema: 32 o 64bits.
+
+https://git-scm.com/downloads
+
+El instalador para Windows abrirá un asistente que mostrará una serie de opciones durante el proceso. Dejar las opciones marcadas por defecto será suficientes en la mayoría de las situaciones.
+
+GIT BASH es una herramienta de línea de comandos para Windows que nos permite ejecutar comandos de Git.
+
+💡 Tip: Bash significa Bourne Again Shell. Un bash es una aplicación usada para interactuar con el sistema operativo de una computadora a través de comandos.
+
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/bd8d4c71-f0bb-48ea-9d0b-d919fb546273)
+
+Una vez que el proceso haya terminado correctamente, compruebe la instalación ejecutando git de prueba con:
+
+> git --version
+
 ### 4 - Comandos básicos de la terminal
+
+Abrir  gitBash
+Creo una carpeta de proyecto nuevo
+> mkdir miProyectoLole
+Creo un archivo en mi proyecto
+> touch hola.py
+Listamos los archivos y directorios de nuestro proyecto
+> ls -alh
+Ahora es momento de iniciar Git dentro de esta carpeta para convertirla en un repositorio. De lo contrario no podríamos trabajar con git, dentro de la carpeta debe haber otra carpeta oculta llamada «.git». Para inicializar Git en una carpeta de tu proyecto debes usar el comando:
+> git init    
+O bien si no quieres posicionarte en la carpeta puedes darle la dirección de la misma como argumento al comando
+> git init "directorio"
+Listamos nuevamente los archivos y directorios de nuestro proyecto
+> ls -alh
+y vemos que se ha creado el directirio ".git"
+
+**Status:** 
+El comando «git status» nos mostrará el estado del directorio de trabajo, es decir, de donde estamos posicionados trabajando y también aquellos archivos que Git está siguiendo. Recuerdas que Git llevaba algo así como un historial o cache llamado "Stagin Area" donde los Commits eran los cambios realizados y marcaban un punto de referencia en cada cambio del archivo. El comando «git status» nos mostrará aquellos archivos que están en el Stagin Area, es decir, que están siendo seguidos en el área de ensayo.
+> git Status
+
+ ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/77540fdf-42e3-4e86-bb9a-a7b8e2803c92)
+
+Vemos que Git nos indica que estamos sobre la rama «master» que es la principal de los proyectos. Y que además no hemos realizado ningún Commit todavía, por lo que no hay un punto de referencia al que volver. No hemos realizado cambios, pero lo más importante es que nos muestra un archivo en letra rojas.  Y nos avisa que estos archivos no están siendo seguidos. Así que vamos a seguirlos. Usando el comando «git add».
+
+**Add (Seguimiento de archivos):**
+
+En Git el proceso de guardar resulta diferente a el clásico «guardar» al que estamos acostumbrados. En git podemos verlo como «ir confirmando cambios a distintos niveles».
+
+Al utilizar el comando «git add» seguido del nombre de un archivo o bien utilizando un comodín «.» para todos los archivos del directorio, estamos ordenando a Git realizar un seguimiento del mismo. Lo que significa que nos avisará cuando se hagan cambios.
+Cada vez que modifiques el archivo con tu editor de código y des «guardar..» en el mismo. Git detectará que el archivo ha cambiado.. Y haciendo otro «git status» lograrás verlo en rojo nuevamente.
+
+Como para ejemplificar esto a continuación añadiremos el archivo nuestro a seguimiento:
+
+> git add hola.py
+
+o bien podemos usar comodín para añadir todos los archivos #que se encuentren en el directorio
+
+> git add .
+
+Al hacerlo simplemente Git no nos mostrará nada, pero al volver a solicitar un «estado» mediante «git status» veremos lo siguiente:
+> git status
+
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/d08e1340-1e1c-4957-a5ee-0e29d66d631f)
+
+Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin ninguna foto (commit)
+
+
 ### 5 - Configuración de Git
-6 - "git init"
+### 6 - "git init"
+
+
+___
+* Apunte de Majo: https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view
+* Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
+* Curso freeCodeCamp.org: https://www.freecodecamp.org/espanol/news/aprende-git-y-github-curso-desde-cero/
+____
+
