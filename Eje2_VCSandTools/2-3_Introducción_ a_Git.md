@@ -67,8 +67,6 @@ Un commit es como una "foto" de tu proyecto en un momento en particular. Un comm
   * Para describir los cambios registrados en un commit, escribimos un mensaje de commit que podemos verificar al trabajar en el proyecto.
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/208310a1-a83f-4ee7-b42a-662682ca584b)
 
-
-
 **Rama (Branch)**
 Una rama es una línea independiente de desarrollo de un proyecto que es administrada y rastreada por Git. Cada proyecto iniciar con una rama por defecto que normalmente llamamos main. Podemos crear una rama para trabajar en un aspecto nuevo del proyecto sin afectar la versión principal.
 
@@ -114,6 +112,7 @@ Para ello les sugiero que sigan los pasos que se detallan a continuación y trat
 Y por cierto, también puede que sientas alguna algun rechazo al trabajar en la consola, no te preocuparse, existen aplicaciones gráficas para Git de forma que podrám trabajar de forma mas «intuitiva». Pero comencemos  aprendiendo los comandos con la consola y después sintanse libres de saltar al entorno gráfico, algún día lo agradecerán!
 
 Abrir  Git Bash --> Luego de la instalción, localizar en acceso a la consola "Git Bash"
+Asociamos por única vez nuestro usuario y email
 
 Crear una carpeta de proyecto nuevo
 > mkdir miProyectoLole
