@@ -71,20 +71,27 @@ GIT BASH es una herramienta de línea de comandos para Windows que nos permite e
 Una vez que el proceso haya terminado correctamente, compruebe la instalación ejecutando git de prueba con:
 
 > git --version
+
 > git -v
 
 > git --help 
+
 > git -h
 
 Comandos básico de terminal:
+
 list 
 > ls -lha
+
 change directory
 > cd
+
 print working directory
 > pwd
+
 make directory
 > mkdir
+
 Clear console
 > clear
 
@@ -93,18 +100,25 @@ Clear console
 ### 5 - Configuración de Git
 
 Asociamos por única vez nuestro usuario y email
+
 --Configuracion global:
+
 > git config user.name "lole-s" user.email "jcsodo@gmail.com" 
+
 *ver archivo de configuración C:/Users/operador4/.gitconf
 
 ### 6 - "git init"
 
 Crear una carpeta de proyecto nuevo
+
 > mkdir miProyecto
+
 > cd miProyecto
+
 > ls -alh
 
 --inicializar el contexto de un control de versiones en el directorio raiz del proyecto
+
 > git init
 
 O bien si no quieres posicionarte en la carpeta puedes darle la dirección de la misma como argumento al comando
@@ -118,7 +132,9 @@ Listamos nuevamente los archivos y directorios de nuestro proyecto
 y vemos que se ha creado el directirio ".git"
 
 **a partir de aquí el directorio trabaja con control de versiones**
+
 --ver directorio oculto "../miProyecto/.git/" en el cual se guarda la logica de git para este proyecto
+
 --el .git indica que el directorio trabaja con control de versiones
 
 ### 7 -  Conceptos básicos de Git
@@ -161,10 +177,12 @@ Podemos combinar o fusionar (merge) ramas si necesitamos incorporar los cambios 
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/a8c53866-0830-4b1d-8180-d473ad1d0023)
 
 
-8 - "git status", "git add" y "git commit"
+### 8 - "git status", "git add" y "git commit"
 
 --ver estado de proyecto
+
 > git status
+
 Not commits yet
 
 -- creo un nuevo archivdo dentro de mi proyecto
@@ -175,13 +193,10 @@ Not commits yet
 
 **Status:** 
 El comando «git status» nos mostrará el estado del directorio de trabajo, es decir, de donde estamos posicionados trabajando y también aquellos archivos que Git está siguiendo. Recuerdas que Git llevaba algo así como un historial o cache llamado "Stagin Area" donde los Commits eran los cambios realizados y marcaban un punto de referencia en cada cambio del archivo. El comando «git status» nos mostrará aquellos archivos que están en el Stagin Area, es decir, que están siendo seguidos en el área de ensayo.
-
- ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/77540fdf-42e3-4e86-bb9a-a7b8e2803c92)
-
 Vemos que Git nos indica que estamos sobre la rama «master» que es la principal de los proyectos. Y que además no hemos realizado ningún Commit todavía, por lo que no hay un punto de referencia al que volver. No hemos realizado cambios, pero lo más importante es que nos muestra un archivo en letra rojas.  Y nos avisa que estos archivos no están siendo seguidos. Así que vamos a seguirlos. Usando el comando «git add».
 
-
 --preparar archivos para la primer foto del proyecto
+
 **Add (Seguimiento de archivos):**
 
 En Git el proceso de guardar resulta diferente a el clásico «guardar» al que estamos acostumbrados. En git podemos verlo como «ir confirmando cambios a distintos niveles».
@@ -191,7 +206,7 @@ Cada vez que modifiques el archivo con tu editor de código y des «guardar..» 
 
 Como para ejemplificar esto a continuación añadiremos el archivo nuestro a seguimiento:
 
-> git add hola.py
+> git add hellogit.py
 
 o bien podemos usar comodín para añadir todos los archivos #que se encuentren en el directorio
 
@@ -199,8 +214,6 @@ o bien podemos usar comodín para añadir todos los archivos #que se encuentren 
 
 Al hacerlo simplemente Git no nos mostrará nada, pero al volver a solicitar un «estado» mediante «git status» veremos lo siguiente:
 > git status
-
-![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/d08e1340-1e1c-4957-a5ee-0e29d66d631f)
 
 Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin ninguna foto (commit)
 
