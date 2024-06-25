@@ -145,7 +145,7 @@ Entender el funcionamiento de Git normalmente es muy fácil, pero se vuelve conf
 
 ###### Primero: tanto al momento de crear un proyecto como cuando lo clonamos, tendremos 3 áreas de importancia que son parte del software Git:
 
-* **La carpeta (directirio) o área de trabajo (Working Área)**
+* **La carpeta (directorio) o área de trabajo (Working Área)**
 
 * **El área de ensayo o preparación (Stagin Área)**
 
