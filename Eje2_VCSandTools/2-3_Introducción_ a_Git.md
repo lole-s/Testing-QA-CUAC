@@ -4,13 +4,8 @@ Trabajar con nuesto código de forma segura es tan importante como aparender a p
   
 Hay dos conceptos distintos que vamos a trabajar en este eje, **Git** y **GitHub**
 
-###### Git es un VCS de código abierto rápido, versátil, muy escalable y gratuito. 
-
-Git es un sistema distribuido, lo que significa que el historial completo de un proyecto se almacena en el cliente y en el servidor. Se pueden editar archivos sin conexión de red, protegerlos localmente y sincronizarlos con el servidor cuando una conexión esté disponible. Si un servidor deja de funcionar, todavía tendrá una copia local del proyecto. Técnicamente, ni siquiera es necesario tener un servidor. Los cambios pueden pasarse por correo electrónico o compartirse mediante medios extraíbles, pero, en la práctica, nadie usa Git así.
-
+###### Git es un VCS de código abierto, ditribuido, rápido, versátil, muy escalable y gratuito. 
 ###### GitHub es una plataforma en la nube que usa Git como tecnología principal. 
-
-GitHub actúa como el repositorio remoto, además, funciona como una red social que conecta a desarrolladores y usuarios con el fin de ir introduciendo constantemente mejoras, simplificando el proceso de colaboración en proyectos y proporciona un sitio web, más herramientas de línea de comandos y un flujo integral que los desarrolladores y usuarios pueden usar para trabajar juntos.  mencionado anteriormente.
 
 En esta primer seccion nos vamos a concentrar unicamente de **Git**. 
     
@@ -20,7 +15,7 @@ En esta primer seccion nos vamos a concentrar unicamente de **Git**.
   * Git es un sistema de control de versiones distribuido.
   * Libro oficial en español: https://git-scm.com/book/es/v2
   
-La principal diferencia con respecto a otros sistemas de control es que se basa en una arquitectura distribuida, es decir, no cuenta con un único espacio en donde almacenar el histórico de versiones sino que facilita que cada desarrollador pueda guardar el historial completo de todas las modificaciones que ha realizado. Probablemente, esa característica sea la principal causa de su popularidad, pues nos git nos permite: 
+La principal diferencia con respecto a otros sistemas de control es que se basa en una arquitectura distribuida, es decir, no cuenta con un único espacio en donde almacenar el histórico de versiones sino que facilita que cada desarrollador pueda guardar el historial completo de todas las modificaciones que ha realizado. Probablemente, esa característica sea la principal causa de su popularidad, pues git nos permite: 
 
   * Registrar historico de trabajo código
   * Crear copias de seguridad
@@ -36,17 +31,7 @@ Desde que en 2005, el ingeniero de software Linus Torvalds (padre del kernel del
 
 ### 3 - Instalación de Git
 
-WEB: 
-  clientes gráficos
-  
-
 Git es una herramienta por consola de comandos que se integra bastante bien en los principales editores de programación existente. A continuación te indicamos cómo instalarlo para los diferentes sistemas operativos. 
-
-**Instalar Git en Ubuntu**
-
-La instalación de git en Ubuntu no puede ser más fácil. Sólo hay que abrir un terminal de comandos y ejecutar: 
-
-> sudo apt install git
 
 **Instalar Git en Windows**
 
@@ -78,9 +63,9 @@ Una vez que el proceso haya terminado correctamente, compruebe la instalación e
 
 > git -h
 
-Comandos básico de terminal:
+  #### Comandos básico desde la terminal:
 
-list 
+listar directorio actual
 > ls -lha
 
 change directory
@@ -90,12 +75,13 @@ print working directory
 > pwd
 
 make directory
-> mkdir
+> mkdir <directory name>
 
 Clear console
 > clear
 
-> touch
+Crear archivo
+> touch <nombre de archivo.ext>
 
 ### 5 - Configuración de Git
 
@@ -107,7 +93,7 @@ Asociamos por única vez nuestro usuario y email
 
 *ver archivo de configuración C:/Users/operador4/.gitconf
 
-### 6 - "git init"
+### 6 - Iniciar control de versiones para el directorio de nuestro proyecto. "git init"
 
 Crear una carpeta de proyecto nuevo
 
@@ -161,11 +147,13 @@ Este es el directorio del proyecto en el sistema de archivos, donde se guardan l
 
 **Área de preparación (Staging area)**
 Este es el conjunto de archivos y cambios que serán incluidos en el siguiente commit. Podemos agregar y remover archivos de esta área si es necesario.
+
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/86678da4-5858-4a1b-ac28-8edd56da062a)
 
-**Commit**
+**Confirmar Cambios (Commit)**
 Un commit es como una "foto" de tu proyecto en un momento en particular. Un commit registra un cambio que se realizó en el proyecto. Tú escoges cuándo crear un commit y qué incluir en el commit.
   * Para describir los cambios registrados en un commit, escribimos un mensaje de commit que podemos verificar al trabajar en el proyecto.
+
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/208310a1-a83f-4ee7-b42a-662682ca584b)
 
 **Rama (Branch)**
@@ -194,7 +182,7 @@ Podemos combinar o fusionar (merge) ramas si necesitamos incorporar los cambios 
 > git status
 
 **Status:** 
-El comando «git status» nos mostrará el estado del directorio de trabajo, es decir, de donde estamos posicionados trabajando y también aquellos archivos que Git está siguiendo. Recuerdas que Git llevaba algo así como un historial o cache llamado "Stagin Area" donde los Commits eran los cambios realizados y marcaban un punto de referencia en cada cambio del archivo. El comando «git status» nos mostrará aquellos archivos que están en el Stagin Area, es decir, que están siendo seguidos en el área de ensayo.
+El comando «git status» nos mostrará el estado del directorio de trabajo, es decir, de donde estamos posicionados trabajando y también aquellos archivos que Git está siguiendo. 
 Vemos que Git nos indica que estamos sobre la rama «master» que es la principal de los proyectos. Y que además no hemos realizado ningún Commit todavía, por lo que no hay un punto de referencia al que volver. No hemos realizado cambios, pero lo más importante es que nos muestra un archivo en letra rojas.  Y nos avisa que estos archivos no están siendo seguidos. Así que vamos a seguirlos. Usando el comando «git add».
 
 --preparar archivos para la primer foto del proyecto
@@ -225,6 +213,7 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 > git status
 
 #### Git log
+
 --git añade un hash al commit para identificar el momento de la foto
 > git log
 
@@ -252,9 +241,80 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 >
 > git log
 
-#### Git de VSCode
+
+#### "git diff"
+
+---MAIN---foto1---foto2---foto3(HEAD)--(sinfoto)
+--nos fuimos moviendo, fuimos avanzando. siempre en la última posición pero podemos ver que hay hacia atras
+--ahora hacemos una modificaion a uno de los ficheros modifico "soy lole" por "soy lole, he cambiado"
+ > vim hellogit.py
+	print("hello git!")
+	print("soy lole, he cambiado")
+--si quiero ver cuales son los cambios que he realizado con respecto a la ultima foto (foto3)
+> git diff
+
+#### Git alias
+--ver listado de diferente maneras
+>git log --graph
+>git log --graph --pretty=oneline
+>git log --graph --decorate ---all --oneline
+
+--crear alias dentro de la configuración, ejemplo
+>git config --global alias.log.deco "log --graph --decorate --all --oneline"
+
+> git log.deco
+
+#### Git ingnore
+> touch git.txt
+> 
+> git status
+
+--quiero ignorar el archivo "git.txt" para que no me moleste cada vez que hago un status
+
+> touch .gitignore
+> 
+> ls
+> 
+> curso-git.md  git.txt  hellogit.py  hellogit2.py
+>
+> ls -a
+> 
+> .git/  .gitignore  curso-git.md  git.txt  hellogit.py  hellogit2.py
+
+>vim .gitignore
+**/git.txt
+
+-- los ** indican que el 'git.txt' puede estar en cualquier carpeta de mi proyecto, igual lo va a ingnorar
+
+> git status
+
+no esta mas el "git.txt" como untracked, indica que el .gitignore ya esta efectando al proyecto
+
+-- ahora añadimos el .gitignore al control de git porque es un archivo importante de nuestro proyecto
+
+> git add .gitignore
+>
+> git commit -m "Se agrega el .gitignore"
+>
+> git status
+
+-- ahora el árbol de trabajo esta limpio!!
+
+
 #### Git checkuot - moverse en una rama
+> git log
+--copio el <hash> del la foto1. y la copio en git checkout <hash>
+> git checkout fb8e3eb7742961cafcac4f25b4ce098d91c0fda0
+--!!!desaparecieron los archivos y las modificaciones
+-- si desaparecieron, pero ".git" sabe
+--si quiero volver al estado en que estaba trabajando antes hago: 
+> git log --graph --decorate ---all --oneline
+--o con alias
+> git log.deco 
+--y copio el hash de la foto main
+
 #### Git reset 
+
 _____
 * Apunte de Majo: https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view
 * Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
