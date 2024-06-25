@@ -75,13 +75,13 @@ print working directory
 > pwd
 
 make directory
-> mkdir <directory name>
+> mkdir "directory name"
 
 Clear console
 > clear
 
 Crear archivo
-> touch <nombre de archivo.ext>
+> touch "nombre de archivo.ext"
 
 ### 5 - Configuración de Git
 
