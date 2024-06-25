@@ -145,11 +145,13 @@ Entender el funcionamiento de Git normalmente es muy fácil, pero se vuelve conf
 
 ###### Primero: tanto al momento de crear un proyecto como cuando lo clonamos, tendremos 3 áreas de importancia que son parte del software Git:
 
-**La carpeta (directirio) o área de trabajo (Working Área)**
-**El área de ensayo o preparación (Stagin Área)**
-**Nuestro repositorio local («.git»)**
+* **La carpeta (directirio) o área de trabajo (Working Área)**
 
-Los siguientes conceptos son esenciales para trabajar con Git.
+* **El área de ensayo o preparación (Stagin Área)**
+
+* **Nuestro repositorio local («.git»)**
+
+#### Los siguientes conceptos son esenciales para trabajar con Git.
 
 **Repositorio (Repository)**
 Un repositorio es donde Git almacena los archivos de tu proyecto y las distintas versiones de tus archivos. Un repositorio puede ser local o remoto. Un repositorio local se guarda de forma local en tu computadora. Un repositorio remoto se guarda en los servidores del servicio de hosting que escojas (por ejemplo, GitHub).
