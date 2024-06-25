@@ -8,7 +8,7 @@ Es la forma en que se organizan los componentes de una red. Por lo tanto, es la 
 **¿Que son los protocolos en el ámbito de las telecomunicaciones?**    
 Es un conjunto de reglas y especificaciones que rígen las comunicaciones.
 
-**¿Que es el protocolo TCP/IP?** 
+**¿Que es el Modelo TCP/IP?** 
 Conjunto de protocolos de red que permite la comunicación de datos entre dispositivos de redes informaticas. Creado en la decada del 70 y estandarizado en 1983 por la IETF. 
 
 ___
@@ -30,7 +30,6 @@ https://blog.smaldone.com.ar/2006/11/21/tutorial-sobre-tcpip/
 * iana/lacnic 
 
 ___ 
-
 
 #### LINKS DE INTERES 
 ###### Modelo TCP/IP (IETF) - Modelo OSI (ISO)
