@@ -52,7 +52,7 @@ Sirve para distinguir a los dispositivos que están conectados a una red, por lo
 
 La **IP Pública** es la dirección que te asigna tu operador para identificarte dentro de Internet cuando te conectas. Aunque las hay fijas, lo más común es que sean dinámicas y vayan cambiando sin que te des cuenta cada cierto tiempo. Cuando nos referimos a nuestra dirección IP, normalmente solemos referirnos a esta, **a la pública**, que es tu matrícula de identificación cuando te conectas, y las direcciones IP (PUBLICAS) no se pueden repetir, por la que cada usuario tiene una que es única.
 
-Nadie puede navegar por la red sin una IP, y ninguna página web puede estar online si no tiene una IP asociada. De hecho, cuando tú   escribes una dirección como 'www.google.es', lo que hace el navegador es traducir ese texto a una dirección IP para poder conectarse a la página de Google y acceder a su contenido.
+Nadie puede navegar por la red sin una IP, y ninguna página web puede estar online si no tiene una IP asociada. De hecho, cuando tú   escribes una dirección como 'www.google.com', lo que hace el navegador es traducir ese texto a una dirección IP para poder conectarse a la página de Google y acceder a su contenido.
 
 La **IP Privada** es la dirección IP que se le asigna a los dispositivos dentro de una red privada o doméstica. Tu impresora, tu router, tu smartphone o tu ordenador, todos tienen una dirección propia dentro de tu red cuando se conectan a la misma WiFi, y sirve para que se puedan identificar y diferenciar entre ellos.
 
