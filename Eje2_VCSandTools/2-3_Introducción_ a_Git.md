@@ -185,7 +185,7 @@ Podemos combinar o fusionar (merge) ramas si necesitamos incorporar los cambios 
 
 > git status
 
-Not commits yet
+> Not commits yet
 
 -- creo un nuevo archivdo dentro de mi proyecto
 
@@ -227,19 +227,16 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 --git añade un hash al commit para identificar el momento de la foto
 > git log
 
-commit fb8e3eb7742961cafcac4f25b4ce098d91c0fda0
-
-Author: lole-s <jcsodo@gmail.com>
-
-Date:   Wed Feb 21 08:51:34 2024 -0300
-
-    este es mi primer commit
+> commit fb8e3eb7742961cafcac4f25b4ce098d91c0fda0
+> Author: lole-s <jcsodo@gmail.com>
+> Date:   Wed Feb 21 08:51:34 2024 -0300
+>    este es mi primer commit
 
 > touch hellogit2.py
 
 > vim hellogit2.py
 
-	print ("hello Git!")
+>	print ("hello Git!")
 
 > git status
 > git add hellogit2.py
@@ -248,11 +245,69 @@ Date:   Wed Feb 21 08:51:34 2024 -0300
 > git log
 
 #### Git de VSCode
-
-
+#### Git checkuot - moverse en una rama
+#### Git reset 
 _____
 * Apunte de Majo: https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view
 * Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
 * Curso freeCodeCamp.org: https://www.freecodecamp.org/espanol/news/aprende-git-y-github-curso-desde-cero/
 ____
+resumen: 
 
+Git: es un software de control de versiones distribuido y nos permite administrar los cambios en el código.
+
+GitHub: Es una plataforma web para alojar proyectos utilizando el sistema de control de versiones Git.
+
+git init: crea la subcarpeta oculta “.git” donde se encuentra un mapa del proyecto.
+
+git add: comienza a rastrear los archivos del proyecto.
+
+git status: muestra el estado actual.
+
+git commit: confirma los cambios realizados.
+
+git log: muestra el historial de commits.
+
+git diff: muestra las diferencias en el código.
+
+git checkout: sirve para moverse entre una ramas.
+
+git rm: elimina un archivo del proyecto
+
+git reset: restablece un repositorio a un punto anterior.
+
+git branch: lista todas las ramas locales.
+
+git merge: combina los cambios en la rama actual.
+
+git remote: crea, muestra y elimina conexiones a otros repositorios.
+
+git push: envia los cambios a una rama remota
+
+git pull: descarga los cambios y los combina en la rama actual.
+
+git tag: crea, muestra y elimina etiquetas.
+
+.gitignore: es un archivo que permite ignorar archivos o carpetas dentro del directorio del proyecto.
+
+
+
+GitHub Pages: es una forma de mostrar un repositorio como un sitio web.
+
+git clone: clona o copia un repositorio remoto.
+
+Fork: Un fork significa bifurcación, supone copiar un proyecto y partir de este hacer modificaciones.
+
+Pull Request: (PR) se utilizan para solicitar incorporaciones de cambios en repositorios remotos.
+
+Issues: donde se puede informar errores de software o solicitar funciones que podría tener un repositorio.
+
+Projects: se componen de issues, solicitudes de funciones y notas que se clasifican como tarjetas en las columnas de su elección.
+
+Wiki: puede usar la wiki de un repositorio para compartir manuales de uso o documentación extensa.
+
+Release: es la versión de un proyecto lista para su distribución.
+
+Badges: (insignias) agregan información relevante acerca de un repositorio.
+
+____
