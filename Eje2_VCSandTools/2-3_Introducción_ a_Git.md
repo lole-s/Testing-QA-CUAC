@@ -221,6 +221,7 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 
 --Hacemos la primer confirmación o foto del proyecto
 > git commit -m  "este es mi primer commit"
+>
 > git status
 
 #### Git log
@@ -228,8 +229,11 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 > git log
 
 > commit fb8e3eb7742961cafcac4f25b4ce098d91c0fda0
+>
 > Author: lole-s <jcsodo@gmail.com>
+>
 > Date:   Wed Feb 21 08:51:34 2024 -0300
+>
 >    este es mi primer commit
 
 > touch hellogit2.py
@@ -239,9 +243,13 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 >	print ("hello Git!")
 
 > git status
+> 
 > git add hellogit2.py
+>
 > git status
+>
 > git commit -m  "este es mi 2do commit"
+>
 > git log
 
 #### Git de VSCode
