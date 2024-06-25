@@ -32,8 +32,9 @@ ____
 **Router**: también conocido como enrutador o encaminador — es un dispositivo que proporciona conectividad a nivel de red o nivel tres en el modelo OSI. Su función principal consiste en enviar o encaminar datos de una red a otra de acuerdo a la dirección IP destino del los paquetes IP, es decir, **interconecta subredes**.
 
 
-![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/f42825c5-4971-4194-ac67-9f1920af0298)
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/71f4249e-d3b7-4774-bdd9-eea8104bfd3b)
 
+![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/f42825c5-4971-4194-ac67-9f1920af0298)
 
 
 ____
