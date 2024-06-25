@@ -10,7 +10,7 @@ Git es un sistema distribuido, lo que significa que el historial completo de un 
 
 ###### GitHub es una plataforma en la nube que usa Git como tecnología principal. 
 
-Gihub Simplifica eFunciona como una red social que conecta a desarrolladores y usuarios con el fin de ir introduciendo constantemente mejoras, simplificando el proceso de colaboración en proyectos y proporciona un sitio web, más herramientas de línea de comandos y un flujo integral que los desarrolladores y usuarios pueden usar para trabajar juntos. GitHub actúa como el repositorio remoto mencionado anteriormente.
+GitHub actúa como el repositorio remoto, además, funciona como una red social que conecta a desarrolladores y usuarios con el fin de ir introduciendo constantemente mejoras, simplificando el proceso de colaboración en proyectos y proporciona un sitio web, más herramientas de línea de comandos y un flujo integral que los desarrolladores y usuarios pueden usar para trabajar juntos.  mencionado anteriormente.
 
 En esta primer seccion nos vamos a concentrar unicamente de **Git**. 
     
@@ -167,7 +167,7 @@ Un commit es como una "foto" de tu proyecto en un momento en particular. Un comm
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/208310a1-a83f-4ee7-b42a-662682ca584b)
 
 **Rama (Branch)**
-Una rama es una línea independiente de desarrollo de un proyecto que es administrada y rastreada por Git. Cada proyecto iniciar con una rama por defecto que normalmente llamamos main. Podemos crear una rama para trabajar en un aspecto nuevo del proyecto sin afectar la versión principal.
+Una rama es una línea independiente de desarrollo de un proyecto que es administrada y rastreada por Git. Cada proyecto iniciar con una rama por defecto que normalmente llamamos MAIN o MASTER. Podemos crear una rama para trabajar en un aspecto nuevo del proyecto sin afectar la versión principal.
 
 ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/09690117-2d33-4c8c-a922-e9f4d32ddc87)
 
@@ -208,7 +208,7 @@ Como para ejemplificar esto a continuación añadiremos el archivo nuestro a seg
 
 > git add hellogit.py
 
-o bien podemos usar comodín para añadir todos los archivos #que se encuentren en el directorio
+o bien podemos usar comodín para añadir todos los archivos que se encuentren en el directorio
 
 > git add .
 
@@ -217,11 +217,32 @@ Al hacerlo simplemente Git no nos mostrará nada, pero al volver a solicitar un 
 
 Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin ninguna foto (commit)
 
---lanzar primer foto del proyecto
+--Hacemos la primer confirmación o foto del proyecto
 > git commit -m  "este es mi primer commit"
 > git status
 
-___
+#### Git log
+--git añade un hash al commit para identificar el momento de la foto
+> git log
+commit fb8e3eb7742961cafcac4f25b4ce098d91c0fda0
+Author: lole-s <jcsodo@gmail.com>
+Date:   Wed Feb 21 08:51:34 2024 -0300
+
+    este es mi primer commit
+
+> touch hellogit2.py
+> vim hellogit2.py
+	print ("hello Git!")
+> git status
+> git add hellogit2.py
+> git status
+> git commit -m  "este es mi 2do commit"
+> git log
+
+#### Git de VSCode
+
+
+_____
 * Apunte de Majo: https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view
 * Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
 * Curso freeCodeCamp.org: https://www.freecodecamp.org/espanol/news/aprende-git-y-github-curso-desde-cero/
