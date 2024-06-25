@@ -226,15 +226,21 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 #### Git log
 --git añade un hash al commit para identificar el momento de la foto
 > git log
+
 commit fb8e3eb7742961cafcac4f25b4ce098d91c0fda0
+
 Author: lole-s <jcsodo@gmail.com>
+
 Date:   Wed Feb 21 08:51:34 2024 -0300
 
     este es mi primer commit
 
 > touch hellogit2.py
+
 > vim hellogit2.py
+
 	print ("hello Git!")
+
 > git status
 > git add hellogit2.py
 > git status
