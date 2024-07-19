@@ -169,7 +169,7 @@ Podemos combinar o fusionar (merge) ramas si necesitamos incorporar los cambios 
 
 ### 8 - "git status", "git add" y "git commit"
 
---ver estado de proyecto
+-- ver estado de proyecto
 
 > git status
 
@@ -188,7 +188,6 @@ Vemos que Git nos indica que estamos sobre la rama «master» que es la principa
 --preparar archivos para la primer foto del proyecto
 
 **Add (Seguimiento de archivos):**
-
 En Git el proceso de guardar resulta diferente a el clásico «guardar» al que estamos acostumbrados. En git podemos verlo como «ir confirmando cambios a distintos niveles».
 
 Al utilizar el comando «git add» seguido del nombre de un archivo o bien utilizando un comodín «.» para todos los archivos del directorio, estamos ordenando a Git realizar un seguimiento del mismo. Lo que significa que nos avisará cuando se hagan cambios.
@@ -203,11 +202,13 @@ o bien podemos usar comodín para añadir todos los archivos que se encuentren e
 > git add .
 
 Al hacerlo simplemente Git no nos mostrará nada, pero al volver a solicitar un «estado» mediante «git status» veremos lo siguiente:
+
 > git status
 
 Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin ninguna foto (commit)
 
 --Hacemos la primer confirmación o foto del proyecto
+
 > git commit -m  "este es mi primer commit"
 >
 > git status
@@ -215,6 +216,7 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 #### Git log
 
 --git añade un hash al commit para identificar el momento de la foto
+
 > git log
 
 > commit fb8e3eb7742961cafcac4f25b4ce098d91c0fda0
@@ -225,6 +227,8 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 >
 >    este es mi primer commit
 
+-- Creamos y agregamos un 2 archivo
+
 > touch hellogit2.py
 
 > vim hellogit2.py
@@ -234,52 +238,59 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 > git status
 > 
 > git add hellogit2.py
->
+
 > git status
->
+
 > git commit -m  "este es mi 2do commit"
->
+
 > git log
 
 
 #### "git diff"
 
 ---MAIN---foto1---foto2---foto3(HEAD)--(sinfoto)
+
 --nos fuimos moviendo, fuimos avanzando. siempre en la última posición pero podemos ver que hay hacia atras
---ahora hacemos una modificaion a uno de los ficheros modifico "soy lole" por "soy lole, he cambiado"
- > vim hellogit.py
-	print("hello git!")
-	print("soy lole, he cambiado")
+--ahora hacemos una modificación a uno de los ficheros modifico y vemos que ocurre
+
+> vim hellogit.py
+	print("PROA TESTING!")
+
 --si quiero ver cuales son los cambios que he realizado con respecto a la ultima foto (foto3)
 > git diff
 
 #### Git alias
 --ver listado de diferente maneras
->git log --graph
->git log --graph --pretty=oneline
->git log --graph --decorate ---all --oneline
+
+> git log --graph
+
+> git log --graph --pretty=oneline
+
+> git log --graph --decorate ---all --oneline
 
 --crear alias dentro de la configuración, ejemplo
->git config --global alias.log.deco "log --graph --decorate --all --oneline"
+
+> git config --global alias.log.deco "log --graph --decorate --all --oneline"
 
 > git log.deco
 
 #### Git ingnore
+
 > touch git.txt
-> 
+ 
 > git status
 
 --quiero ignorar el archivo "git.txt" para que no me moleste cada vez que hago un status
 
 > touch .gitignore
-> 
+ 
 > ls
-> 
-> curso-git.md  git.txt  hellogit.py  hellogit2.py
->
+ 
+> git.txt  hellogit.py  hellogit2.py
+
 > ls -a
-> 
-> .git/  .gitignore  curso-git.md  git.txt  hellogit.py  hellogit2.py
+ 
+> .git/  .gitignore  git.txt  hellogit.py  hellogit2.py
 
 >vim .gitignore
 **/git.txt
@@ -293,9 +304,9 @@ no esta mas el "git.txt" como untracked, indica que el .gitignore ya esta efecta
 -- ahora añadimos el .gitignore al control de git porque es un archivo importante de nuestro proyecto
 
 > git add .gitignore
->
+
 > git commit -m "Se agrega el .gitignore"
->
+
 > git status
 
 -- ahora el árbol de trabajo esta limpio!!
@@ -303,14 +314,23 @@ no esta mas el "git.txt" como untracked, indica que el .gitignore ya esta efecta
 
 #### Git checkuot - moverse en una rama
 > git log
+
 --copio el <hash> del la foto1. y la copio en git checkout <hash>
+
 > git checkout fb8e3eb7742961cafcac4f25b4ce098d91c0fda0
+
 --!!!desaparecieron los archivos y las modificaciones
+
 -- si desaparecieron, pero ".git" sabe
+
 --si quiero volver al estado en que estaba trabajando antes hago: 
+
 > git log --graph --decorate ---all --oneline
+
 --o con alias
+
 > git log.deco 
+
 --y copio el hash de la foto main
 
 #### Git reset 
@@ -320,7 +340,7 @@ _____
 * Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
 * Curso freeCodeCamp.org: https://www.freecodecamp.org/espanol/news/aprende-git-y-github-curso-desde-cero/
 ____
-resumen: 
+#### resumen: 
 
 Git: es un software de control de versiones distribuido y nos permite administrar los cambios en el código.
 
