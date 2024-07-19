@@ -236,7 +236,7 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 >	print ("hello Git!")
 
 > git status
-> 
+ 
 > git add hellogit2.py
 
 > git status
@@ -254,7 +254,8 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 --ahora hacemos una modificación a uno de los ficheros modifico y vemos que ocurre
 
 > vim hellogit.py
-	print("PROA TESTING!")
+
+>	print("PROA TESTING!")
 
 --si quiero ver cuales son los cambios que he realizado con respecto a la ultima foto (foto3)
 > git diff
