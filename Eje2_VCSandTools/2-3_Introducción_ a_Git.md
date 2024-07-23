@@ -89,7 +89,9 @@ Asociamos por única vez nuestro usuario y email
 
 --Configuracion global:
 
-> git config user.name "lole-s" user.email "jcsodo@gmail.com" 
+> git config user.name "lole-s"  
+
+> git config user.email "jcsodo@gmail.com"
 
 *ver archivo de configuración C:/Users/operador4/.gitconf
 
