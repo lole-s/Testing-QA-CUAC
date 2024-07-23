@@ -93,7 +93,9 @@ Asociamos por única vez nuestro usuario y email
 
 > git config user.email "jcsodo@gmail.com"
 
-*ver archivo de configuración C:/Users/operador4/.gitconf
+* ver archivo de configuración C:/Users/operador4/.gitconf o verificar config con el sig. comando
+
+> git config --list
 
 ### 6 - Iniciar control de versiones para el directorio de nuestro proyecto. "git init"
 
