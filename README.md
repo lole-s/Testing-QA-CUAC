@@ -1,2 +1,9 @@
-# Testing-QA-CUAC
-repositorio para Espacio Curricular de Testing - Escuela PROA - Corral de Bustos
+## Testing-QA-CUAC
+
+*Repositorio para Espacio Curricular de Testing - Escuela PROA - Corral de Bustos*
+**2024**
+...
+{
+a=1;
+}
+...
