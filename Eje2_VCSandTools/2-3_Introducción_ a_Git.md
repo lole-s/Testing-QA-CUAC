@@ -344,6 +344,7 @@ _____
 * Apunte de Majo: https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view
 * Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
 * Curso freeCodeCamp.org: https://www.freecodecamp.org/espanol/news/aprende-git-y-github-curso-desde-cero/
+* Repositorio con resumen simpificado:  https://github.com/royeden/instructivo-git
 ____
 #### resumen: 
 
