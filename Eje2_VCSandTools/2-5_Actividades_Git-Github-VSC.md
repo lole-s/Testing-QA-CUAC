@@ -34,12 +34,16 @@
 6. Inicializar repo de proyecto desde "Source Control"
 7. Crear plantilla en "index.html"
 8. Hacer add y commit
-9. Publicar los cambios
+9. Publicar los cambios (la branch como proyecto publico)
+10. Ir a GITHUB y verificar 
+
 
 
 ## Clonar Repositorio desde VSC
 
 1. Abri VSC - Clonar https://github.com/lole-s/Testing-QA-CUAC
 2. Ver Logs - Ver branchs
-3. Crear un nueva Carpeta
+3. Ir  a Testing-QA-CUAC/Eje3-Testing/3-1_Intro.md y escribir en MarkDown el siguiente texto: 
+
+
 4. 
