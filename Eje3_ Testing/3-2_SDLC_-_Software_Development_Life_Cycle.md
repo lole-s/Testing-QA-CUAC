@@ -1,7 +1,6 @@
-#### Ciclo de Vida del Desarrollo de Software
+## Ciclo de Vida del Desarrollo de Software
 
-<img src="https://github.com/user-attachments/assets/22054025-e634-4a9e-9439-fa5440a17068" alt="SDLC" 
-  title="SDLC_-_Software_Development_Life_Cycle" width="600" height="600">
+![SDLC-1](https://github.com/user-attachments/assets/ff809491-20cd-4ce6-b617-227e452da7ee)
 
 La imagen anterior muestra las principales etapas del ciclo de vida del desarrollo de software:
 
@@ -13,3 +12,8 @@ La imagen anterior muestra las principales etapas del ciclo de vida del desarrol
 6. Mantenimiento: Se realizan actualizaciones y mejoras al software a lo largo de su ciclo de vida.
 
 Estas etapas se retroalimentan y pueden iterarse según sea necesario durante el proceso de desarrollo.
+
+<!--
+LEER: https://geekflare.com/es/software-development-life-cycle-sdlc-guide/
+https://www.slideteam.net/blog/que-es-el-ciclo-de-vida-del-desarrollo-de-software-una-guia-completa-con-fases-y-modelos-plantillas?lang=Spanish
+-->
