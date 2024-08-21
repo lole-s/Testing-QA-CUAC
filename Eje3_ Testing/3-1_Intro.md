@@ -23,3 +23,8 @@ El testing de software se refiere al proceso de evaluar y verificar que un siste
 - Incrementa la satisfacción del cliente
 - Ayuda a identificar y corregir problemas a tiempo
 - Aumenta la confianza en el software
+
+
+que es el testing de software: 
+  https://www.youtube.com/watch?v=9b8zcDVWM9M
+  https://www.youtube.com/watch?v=Ynj4nXCIOmM&t
