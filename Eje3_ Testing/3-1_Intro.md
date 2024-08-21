@@ -27,4 +27,9 @@ El testing de software se refiere al proceso de evaluar y verificar que un siste
 
 que es el testing de software: 
   https://www.youtube.com/watch?v=9b8zcDVWM9M
+
   https://www.youtube.com/watch?v=Ynj4nXCIOmM&t
+
+El primer bug de la historia: https://www.youtube.com/shorts/BEpfXbEKz64
+
+Bugs: https://www.youtube.com/watch?v=QLPSA8eeRiQ
