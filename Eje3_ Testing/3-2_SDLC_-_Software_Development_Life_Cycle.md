@@ -23,7 +23,7 @@ SDLC proporciona un enfoque estructurado para el desarrollo de software, asegura
 El SDLC es un enfoque sistemático para desarrollar software que garantiza productos confiables, eficientes y de alta calidad. Ayuda a identificar y mitigar posibles problemas, mejorar la comunicación entre los miembros del equipo y gestionar los riesgos del proyecto. SDLC proporciona un marco para los proyectos de desarrollo de software, asegurando que se completen a tiempo, dentro del presupuesto y que cumplan con los requisitos del cliente. La mayor eficiencia, la mejor calidad y la mayor satisfacción del cliente que SDLC otorga al producto final lo convierten en un engranaje crítico en el desarrollo exitoso de software.
 
  
-
+https://www.youtube.com/watch?v=Z9LNk12ndm4
 
 <!--
 fuente: https://www.slideteam.net/blog/que-es-el-ciclo-de-vida-del-desarrollo-de-software-una-guia-completa-con-fases-y-modelos-plantillas?lang=Spanish
