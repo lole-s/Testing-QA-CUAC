@@ -26,5 +26,4 @@
 
 Esta es una visión general de las principales clasificaciones de las pruebas de software. Cada una de estas categorías tiene sus propios objetivos, técnicas y mejores prácticas asociadas.
 
-
 <!-- https://es.abstracta.us/blog/tipos-pruebas-software-funcionales-automatizadas -->
