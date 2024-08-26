@@ -1,6 +1,6 @@
-## **¿Qué es el testing de software?**
+## [**¿Qué es el testing de software?**](https://www.youtube.com/watch?v=H_mCN6qgHVs)
 
-El testing de software se refiere al proceso de evaluar y verificar que un sistema de software cumple con los requisitos esperados y funciona correctamente. Incluyendo la ejecución de pruebas para detectar defectos, errores o problemas en el software.
+El testing de software se refiere al **proceso** de evaluar y verificar que un sistema de software cumple con los requisitos esperados y funciona correctamente. Incluyendo la ejecución de pruebas para detectar defectos, errores o problemas en el software.
 
 | --> | **Objetivos del testing de software** |
 | ---- | ---- |
