@@ -1,6 +1,7 @@
-## [**¿Qué es el testing de software?**](https://www.youtube.com/watch?v=H_mCN6qgHVs)
+## [**¿Qué son las pruebas de software?**](https://www.youtube.com/watch?v=H_mCN6qgHVs)
 
-El testing de software se refiere al **proceso** de evaluar y verificar que un sistema de software cumple con los requisitos esperados y funciona correctamente. Incluyendo la ejecución de pruebas para detectar defectos, errores o problemas en el software.
+Son los __*procesos* en los que se verifica la funcionalidad y rendimiento del *software*__ de un determinado producto o aplicación. Gracias a las pruebas de software (software testing en inglés) puedes estar seguro de la experiencia del usuario frente a cualquier aplicación, sistema o producto.
+
 
 | --> | **Objetivos del testing de software** |
 | ---- | ---- |
@@ -8,14 +9,6 @@ El testing de software se refiere al **proceso** de evaluar y verificar que un s
 | 2 | Asegurar que el software cumple con los requisitos funcionales y no funcionales |
 | 3 | Evaluar la calidad y la usabilidad del software |
 | 4 | Reducir los riesgos asociados con el lanzamiento de un software |
-
-#### **Principales tipos de pruebas de software:**
-- Pruebas unitarias: Prueban componentes individuales del software.
-- Pruebas de integración: Prueban cómo los componentes interactúan entre sí.
-- Pruebas de sistema: Prueban el sistema completo en su conjunto.
-- Pruebas de aceptación: Verifican que el software cumple con los requisitos del cliente.
-- Pruebas de rendimiento: Evalúan el rendimiento del software bajo carga y estrés.
-- Pruebas de seguridad: Identifican vulnerabilidades y problemas de seguridad.
 
 #### **Beneficios del testing de software:**
 - Mejora la calidad del software
@@ -33,4 +26,6 @@ Links relacionados.
 >  https://www.youtube.com/watch?v=Ynj4nXCIOmM&t
 >
 > El primer bug de la historia: https://www.youtube.com/shorts/BEpfXbEKz64
+> 
 > Bugs: https://www.youtube.com/watch?v=QLPSA8eeRiQ
+ 

@@ -27,44 +27,5 @@ https://www.youtube.com/watch?v=2Jm9Vk5kCGw
 <!--
 fuente: https://www.slideteam.net/blog/que-es-el-ciclo-de-vida-del-desarrollo-de-software-una-guia-completa-con-fases-y-modelos-plantillas?lang=Spanish
 
-V. Pruebas 
-
-A. Tipos de pruebas en el desarrollo de software 
-
-Las pruebas involucran muchos tipos: unidad, integración, sistema, aceptación, regresión, rendimiento, seguridad y usabilidad. Estas pruebas verifican que el software cumple con los requisitos y funciona de manera correcta, eficiente y segura, al mismo tiempo que satisface a los usuarios finales.
-
-B. Pruebas unitarias 
-
-Esto prueba unidades individuales o componentes del software. Las pruebas unitarias aseguran que cada unidad o componente del software funcione correctamente y comprende los siguientes pasos críticos:
-
-Identificar las unidades o componentes a probar
-Crear casos de prueba
-Ejecutar pruebas
-Depurar y solucionar problemas
-Repetir
- 
-
-C. Pruebas de integración 
-
-Esto prueba las interacciones entre unidades o componentes del software. Sus pasos son:
-
-Identificar las unidades o componentes a integrar
-Definir puntos de integración
-Desarrollar casos de prueba de integración
-Ejecute las pruebas para depurar y solucionar problemas
-Repetir
- 
-
-D. Pruebas del sistema 
- 
-
-Se puede llevar a cabo en diversos entornos, incluidos los entornos de desarrollo, ensayo y producción, para garantizar que el software pueda funcionar hasta el final requerido en todos los entornos. Al realizar pruebas del sistema como parte del SDLC, los desarrolladores pueden detectar problemas al principio del proceso de desarrollo, asegurarse de que la aplicación de software cumpla con los requisitos y minimizar el riesgo de errores y fallas en el entorno de producción.
-
- 
-
-E. Pruebas de aceptación del usuario (UAT)
- 
-
-UAT es una fase crítica en el SDLC que implica probar la aplicación de software desde la perspectiva del usuario final. El objetivo de la UAT es verificar que la aplicación de software satisfaga las necesidades y los requisitos de los usuarios finales, sea fácil de usar y funcione correctamente en el entorno obligatorio. Los usuarios finales o las partes interesadas realizan la UAT, que simula escenarios del mundo real para garantizar que la aplicación de software se comporte como se espera y satisfaga los requisitos comerciales. Si se identifican problemas o defectos durante la UAT, estos se informan al equipo de desarrollo para su corrección antes de que la aplicación de software se implemente en el entorno de producción. Con UAT, las organizaciones pueden aumentar la calidad y la aceptación de la aplicación de software y minimizar el riesgo de errores y fallas en el entorno de producción.
 
 -->
