@@ -2,15 +2,22 @@
 
 ## Pruebas funcionales por exploración 
 https://academybugs.com/
+____
 
 ## Depurar desde Navegador
+
 https://es.javascript.info/devtools
 
 https://es.javascript.info/debugging-chrome
+_____
+##  [Depurar desde VSC](https://www.youtube.com/watch?v=CRXMli2ZkS8)
 
-## Depurar desde VSC
+1. Install Extension "Live Server"
+2. Ir --> "Go Live"  (Inicia en el explarador web por defecto) 
+3. Run
+____ 
 
-### Que es un Servidor WEB
+### ¿Que es un Servidor WEB?
 
 Un **servidor web** es un sistema que almacena, procesa y entrega páginas web a los usuarios. Funciona mediante el uso de hardware y software que responden a las solicitudes de los navegadores web utilizando el **Protocolo de Transferencia de Hipertexto (HTTP)**. Este protocolo define cómo se deben intercambiar los datos entre el servidor y el cliente (el navegador web).
 
