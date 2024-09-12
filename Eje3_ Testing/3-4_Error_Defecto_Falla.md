@@ -35,19 +35,22 @@ El **HTTP** (HyperText Transfer Protocol) es el protocolo que permite la comunic
 
 ### Los servidores web mas populares
 
-1. Apache HTTP: Es un servidor web de código abierto que tiene la ventaja de estar optimizado para sistemas UNIX, Microsoft y MacOS, por lo que es muy versátil para los desarrolladores informáticos. Es el servidor HTTP más usado en todo el mundo y actualmente aloja el mayor número de sitios web.
+1. **Apache HTTP**: Es un servidor web de código abierto que tiene la ventaja de estar optimizado para sistemas UNIX, Microsoft y MacOS, por lo que es muy versátil para los desarrolladores informáticos. Es el servidor HTTP más usado en todo el mundo y actualmente aloja el mayor número de sitios web.
 
-2. Internet Information Services (IIS): El servidor IIS es el segundo más utilizado a nivel mundial y está diseñado para el sistema operativo de Microsoft, por lo que se adapta más fácilmente a las herramientas de Windows y su paquetería.
+2. **Internet Information Services (IIS)**: El servidor IIS es el segundo más utilizado a nivel mundial y está diseñado para el sistema operativo de Microsoft, por lo que se adapta más fácilmente a las herramientas de Windows y su paquetería.
    
-3. Nginx: Nginx es un servidor web de alto nivel para manejar visitas simultáneas y múltiples a un sitio web. Además de ser de código abierto y de tamaño ligero, es compatible con varios sistemas: Windows, Linux, iOS, entre otros. Cuenta con una versión libre y otra de pago. 
+3. **Nginx**: Nginx es un servidor web de alto nivel para manejar visitas simultáneas y múltiples a un sitio web. Además de ser de código abierto y de tamaño ligero, es compatible con varios sistemas: Windows, Linux, iOS, entre otros. Cuenta con una versión libre y otra de pago. 
 
-4. Cherokee: Es un servidor web multiplataforma de código abierto, moderno, rápido, liviano y fácil de usar. Se ejecuta en Linux macOS, Solaris y BSD. Permite transmisión de video, almacenamiento en caché de contenido, modelado de tráfico, etc.
+4. **Cherokee**: Es un servidor web multiplataforma de código abierto, moderno, rápido, liviano y fácil de usar. Se ejecuta en Linux macOS, Solaris y BSD. Permite transmisión de video, almacenamiento en caché de contenido, modelado de tráfico, etc.
 
 #### ¿Cómo saber en qué servidor está alojada una web?
 
-https://check-host.net/
-
 > cURL -I http://www.motores.com/
+
+> https://check-host.net/
+
+
+
 
 
 
