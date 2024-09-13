@@ -1,0 +1,109 @@
+### 1. ¿Qué es un Servidor Web?
+
+Un servidor web es un software que se ejecuta en un servidor físico y maneja las solicitudes de los usuarios entrantes. Su función principal es entregar páginas web a los navegadores de los usuarios.
+
+### Principales Servidores Web
+
+1. **Apache HTTP Server**:
+   - **Lanzamiento**: 1995
+   - **Características**: Código abierto, flexible, ampliamente utilizado.
+   - **Uso**: Popular en servidores Linux.
+
+2. **Nginx**:
+   - **Lanzamiento**: 2004
+   - **Características**: Alto rendimiento, escalabilidad, ideal para sitios de alta concurrencia.
+   - **Uso**: Creciente popularidad en grandes empresas.
+
+3. **Microsoft IIS (Internet Information Services)**:
+   - **Lanzamiento**: 1995
+   - **Características**: Integración con Windows, soporte para aplicaciones .NET.
+   - **Uso**: Común en entornos empresariales que utilizan tecnología Microsoft.
+
+### Comparación de Servidores Web
+
+| Característica       | Apache          | Nginx           | Microsoft IIS  |
+|----------------------|-----------------|-----------------|----------------|
+| **Código Abierto**   | Sí              | Sí              | No             |
+| **Rendimiento**      | Bueno           | Excelente       | Bueno          |
+| **Escalabilidad**    | Media           | Alta            | Media          |
+| **Compatibilidad**   | Multiplataforma | Multiplataforma | Windows        |
+
+### 2. ¿Qué es HTTP?
+
+HTTP (HyperText Transfer Protocol) es el protocolo utilizado para la transferencia de datos en la web. Define cómo se formatean y transmiten los mensajes, y cómo los servidores y navegadores deben responder a diversas solicitudes.
+
+### Ciclo de una Petición HTTP
+
+1. **Cliente (Navegador)**: Envía una solicitud HTTP al servidor.
+2. **Servidor Web**: Recibe la solicitud, procesa la información y envía una respuesta.
+3. **Cliente (Navegador)**: Recibe la respuesta y muestra la página web.
+
+### Ejemplo de Petición y Respuesta HTTP
+
+**Petición HTTP:**
+```
+GET /index.html HTTP/1.1
+Host: www.ejemplo.com
+```
+
+**Respuesta HTTP:**
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+<html>
+<body>
+<h1>¡Hola, mundo!</h1>
+</body>
+</html>
+```
+
+### Gráfico del Ciclo de Petición-Respuesta HTTP
+
+![Ciclo HTTP](https://www.example.com/ciclo-http.png)
+
+### 3. ¿Qué es un Servidor en la Nube (Cloud Server)?
+
+Un servidor en la nube es una infraestructura física o virtual que entrega aplicaciones, procesa información o proporciona almacenamiento de datos. Los servidores en la nube se crean utilizando software de virtualización, que divide un servidor físico en varios servidores virtuales⁴⁵.
+
+### Beneficios de los Servidores en la Nube
+
+- **Escalabilidad**: Permiten ajustar los recursos según las necesidades.
+- **Rentabilidad**: Solo se paga por lo que se usa, reduciendo costos de mantenimiento.
+- **Flexibilidad**: Se pueden configurar y desplegar rápidamente en cualquier parte del mundo.
+
+### Comparación entre Servidores Locales y en la Nube
+
+| Característica       | Servidor Local  | Servidor en la Nube |
+|----------------------|-----------------|---------------------|
+| **Costo Inicial**    | Alto            | Bajo                |
+| **Mantenimiento**    | Requiere personal| Mínimo              |
+| **Escalabilidad**    | Limitada        | Alta                |
+| **Accesibilidad**    | Local           | Global              |
+
+### Actividad Práctica
+
+1. **Configurar un Servidor Web Local**:
+   - Instalar Apache o Nginx en sus computadoras.
+   - Crear una página HTML simple y servirla desde el servidor web.
+
+2. **Analizar Peticiones HTTP con `curl`**:
+   - **Instalar `curl`**: Asegúrate de tener `curl` instalado en tu sistema.
+   - **Enviar una Petición GET**:
+     ```bash
+     curl -X GET http://www.ejemplo.com/index.html
+     ```
+   - **Enviar una Petición POST**:
+     ```bash
+     curl -X POST -d "nombre=Juan&apellido=Pérez" http://www.ejemplo.com/formulario
+     ```
+   - **Ver Cabeceras de Respuesta**:
+     ```bash
+     curl -I http://www.ejemplo.com/index.html
+     ```
+   - **Descargar un Archivo**:
+     ```bash
+     curl -O http://www.ejemplo.com/archivo.zip
+     ```
+
+---
