@@ -60,7 +60,7 @@ Content-Type: text/html
 
 ### Gráfico del Ciclo de Petición-Respuesta HTTP
 
-![Ciclo HTTP](https://www.example.com/ciclo-http.png)
+![Ciclo HTTP](../img/1_OcYZW2NTTBMOELvu42yXIw.webp)
 
 ### 3. ¿Qué es un Servidor en la Nube (Cloud Server)?
 
@@ -81,29 +81,98 @@ Un servidor en la nube es una infraestructura física o virtual que entrega apli
 | **Escalabilidad**    | Limitada        | Alta                |
 | **Accesibilidad**    | Local           | Global              |
 
+
+### Videos recomendados
+
+1. [Error 404](https://www.youtube.com/watch?v=6jKkd3buI0o)
+2. [HTTPs](https://www.youtube.com/watch?v=60606AHuq8c)
+3. [Qué es la WEB?](https://www.youtube.com/watch?v=kXhXgcVpAU8)
+4. [¿Qué es HTML?](https://youtu.be/tPzq8IufGxE?si=zfcltlgAmOBp5SRB) 
+5. [Pagina, sitio y app Web](https://www.youtube.com/watch?v=BUyaHveV9rY)
+
+
+#### ¿Cómo saber en qué servidor está alojada una web?
+
+> cURL -I http://www.motores.com/
+
+> https://check-host.net/
+
+### cURL
+
+`curl` (Client URL) es una herramienta (programa) de línea de comandos utilizada para transferir datos desde o hacia un servidor mediante URLs. Es muy versátil y soporta una amplia variedad de protocolos, incluyendo HTTP, HTTPS, FTP, FTPS, SCP, SFTP, y más.
+
+### Características Principales de `curl`
+
+- **Portabilidad**: Funciona en casi todos los sistemas operativos y dispositivos conectados.
+- **Compatibilidad con Múltiples Protocolos**: Soporta protocolos como HTTP, HTTPS, FTP, SMTP, y más.
+- **Versatilidad**: Puede realizar solicitudes GET, POST, PUT, DELETE, entre otras.
+- **Depuración**: Proporciona detalles de lo que se ha enviado y recibido, útil para depuración.
+- **Uso en Scripts**: Ideal para automatizar tareas en scripts de shell.
+
+### Ejemplos de Uso de `curl`
+
+1. **Enviar una Petición GET**:
+   ```bash
+   curl -X GET http://www.ejemplo.com/index.html
+   ```
+
+2. **Enviar una Petición POST**:
+   ```bash
+   curl -X POST -d "nombre=Juan&apellido=Pérez" http://www.ejemplo.com/formulario
+   ```
+
+3. **Ver Cabeceras de Respuesta**:
+   ```bash
+   curl -I http://www.ejemplo.com/index.html
+   ```
+
+4. **Descargar un Archivo**:
+   ```bash
+   curl -O http://www.ejemplo.com/archivo.zip
+   ```
+
 ### Actividad Práctica
 
-1. **Configurar un Servidor Web Local**:
-   - Instalar Apache o Nginx en sus computadoras.
-   - Crear una página HTML simple y servirla desde el servidor web.
+- Abrir la terminal (cmd), crear la carpeta curl en  'C:\Users\PcXX\Documents\'
+- Entrar a la carpeta y practicar los siguientes comandos. 
 
-2. **Analizar Peticiones HTTP con `curl`**:
-   - **Instalar `curl`**: Asegúrate de tener `curl` instalado en tu sistema.
+1. **wttr.in**: Muestra información meteorológica directamente en la terminal. Puedes probar con:
+   ```bash
+   curl wttr.in
+   ```
+
+2. **cheat.sh**: Proporciona "hojas de trucos" para comandos de Linux y otros temas. Por ejemplo:
+   ```bash
+   curl cheat.sh/curl
+   ```
+
+3. **httpbin.org**: Un servicio que te permite probar diferentes tipos de solicitudes HTTP y ver las respuestas. Es muy útil para aprender y practicar con `curl`. Ejemplo:
+   ```bash
+   curl http://httpbin.org/get
+   ```
+
+4. **jsonplaceholder.typicode.com**: Un servicio de API falso que puedes usar para probar solicitudes HTTP. Ejemplo:
+   ```bash
+   curl https://jsonplaceholder.typicode.com/posts
+   ```
+
+5. **Analizar Peticiones HTTP con `curl`**:
+
    - **Enviar una Petición GET**:
      ```bash
-     curl -X GET http://www.ejemplo.com/index.html
+     curl -X GET http://www.example.com/index.html
      ```
    - **Enviar una Petición POST**:
      ```bash
-     curl -X POST -d "nombre=Juan&apellido=Pérez" http://www.ejemplo.com/formulario
+     curl -X POST -d "name=Juan" http://www.example.com/form
      ```
    - **Ver Cabeceras de Respuesta**:
      ```bash
-     curl -I http://www.ejemplo.com/index.html
+     curl -I http://www.example.com/index.html
      ```
    - **Descargar un Archivo**:
      ```bash
-     curl -O http://www.ejemplo.com/archivo.zip
+     curl -O http://www.example.com/archivo.zip
      ```
 
 ---
