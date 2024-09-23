@@ -133,7 +133,7 @@ Un servidor en la nube es una infraestructura física o virtual que entrega apli
 
 ### Actividad Práctica
 
-- Abrir la terminal (cmd), crear la carpeta curl en  'C:\Users\PcXX\Documents\'
+- Abrir la terminal (cmd), crear la carpeta curl en  'C:\Users\PcXX\Documents\cURL'
 - Entrar a la carpeta y practicar los siguientes comandos. 
 
 1. **wttr.in**: Muestra información meteorológica directamente en la terminal. Puedes probar con:
