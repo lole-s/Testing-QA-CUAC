@@ -137,8 +137,6 @@ Para correr el test, usar el comando:
 node sum.spec.mjs
 
 ```
-
-
 ______________
 
 ### Ejemplo de Unit Test sobre función Autenticación 
@@ -162,9 +160,10 @@ export const authenticate = (username, password) => {
     }
     return false;
 };
+
 ```
 
-Archivo de pruebas avanzadas testAuth.mjs:
+Archivo de pruebas auth.spec.mjs:
 
 ```javascript
 
@@ -191,37 +190,26 @@ test('Prueba de autenticación con campos vacíos', () => {
 });
 
 test('Prueba de autenticación con credenciales incorrectas (cambiadas) ', () => {
-    assert.strictEqual(authenticate('user1', 'wrongpassword'), false, 'Las credenciales incorrectas no deberían autenticar al usuario');
+    assert.strictEqual(authenticate('user1', 'password2'), false, 'Las credenciales incorrectas no deberían autenticar al usuario');
 });
 
-
 console.log('Todas las pruebas pasaron');
-En esta actividad, te aseguras de que tu módulo de autenticación funcione correctamente para diferentes escenarios. ¡Prueba a ejecutarlo y cuéntame cómo te va! ¿Listo para el siguiente reto?
+```
+
+Esta test asegura que el módulo de autenticación funcione correctamente para diferentes escenarios. 
 
 
+<!--
+lista de usuarios, cada uno con un nombre de usuario (username) y una contraseña (password).
 
-
-Usted
-Me explicas que hace auth.mjs ?
-Copilot
-En auth.mjs, lo que estamos haciendo es simple pero clave para sistemas de autenticación básicos. Aquí hay un desglose:
-
-Definición de usuarios:
-
-javascript
-
-Copiar
-const users = [
+const users = [    
     { username: 'user1', password: 'password1' },
     { username: 'user2', password: 'password2' }
 ];
-Esta parte crea una lista de usuarios, cada uno con un nombre de usuario (username) y una contraseña (password).
 
-Función de autenticación:
+    
+función de autenticación:
 
-javascript
-
-Copiar
 export const authenticate = (username, password) => {
     const user = users.find(u => u.username === username);
     if (user && user.password === password) {
@@ -229,10 +217,20 @@ export const authenticate = (username, password) => {
     }
     return false;
 };
-Búsqueda de usuario: const user = users.find(u => u.username === username); Se busca un usuario en la lista cuyo nombre de usuario coincida con el proporcionado.
 
-Verificación de contraseña: if (user && user.password === password) Si se encuentra el usuario y la contraseña proporcionada coincide con la almacenada, devuelve true, indicando una autenticación exitosa.
+- Búsqueda de usuario: 
+    - const user = users.find(u => u.username === username); 
 
-Resultado por defecto: return false; Si no se encuentra el usuario o la contraseña no coincide, devuelve false, indicando que la autenticación falló.
+Se busca un usuario en la lista cuyo nombre de usuario coincida con el proporcionado.
 
-Básicamente, este módulo permite verificar si un par username/password es válido según una lista predefinida de usuarios
+- Verificación de contraseña: 
+    - if (user && user.password === password) 
+
+Si se encuentra el usuario y la contraseña proporcionada coincide con la almacenada, devuelve true, indicando una autenticación exitosa.
+
+Resultado por defecto: 
+    - return false; 
+    Si no se encuentra el usuario o la contraseña no coincide, devuelve false, indicando que la autenticación falló.
+
+Básicamente, este módulo permite verificar si un par username/password es válido según una lista predefinida de usuarios.
+-->
