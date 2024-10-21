@@ -18,7 +18,7 @@ Luego puedes importar y usar ese módulo en otro archivo:
 
 ```javascript
 
-// main.js
+// isVowel.spec.js
 const isVowel = require('./isVowel');
 
 console.log(isVowel('a')); // true
@@ -29,41 +29,43 @@ Los módulos permiten dividir la aplicación en partes más manejables y mantene
 
 Se pueden usar las expresiones 'import' y 'export' en lugar de 'require' y 'module.exports', en el ejemplo quedaría así:
 
-En isVowel.js exportas la función:
+En isVowel.mjs exportas la función:
 
 ```javascript
 
 // isVowel.mjs
-export const isVowel = (char) => {
+export function isVowel(char) {
     return 'aeiou'.includes(char.toLowerCase());
-};
+}
 ```
 
-En main.js importas la función:
-
+En isVowel.spec.mjs importas la función:
 
 ```javascript
 
-// main.mjs
+// isVowel.spec.mjs
 import { isVowel } from './isVowel';
 
 console.log(isVowel('a')); // true
 console.log(isVowel('b')); // false
 ```
-En este caso necesario tener configurado un entorno que soporte módulos ES6, como un archivo de configuración de Babel o asegurarte de usar la extensión .mjs en los archivos. 
+
+En este caso necesario tener configurado un entorno que soporte módulos ES6 o asegurarte de usar la extensión .mjs en los archivos. 
 
 
-================
-modulos por defecto para testing
+___________________
 
-assert: Es un módulo de Node.js que proporciona un conjunto simple de funciones de prueba de afirmaciones. Es útil para verificar valores esperados y lanzar errores cuando las afirmaciones no son verdaderas. Básicamente, te ayuda a asegurarte de que tu código está funcionando como debería al comparar resultados esperados con los resultados reales.
+### Módulos (para testing) intergrados en Node.JS
 
-test: Es un módulo de Node.js que ofrece una manera más estructurada y avanzada de organizar y ejecutar pruebas. Permite definir y agrupar tests, proporcionando mayor flexibilidad y control sobre el proceso de pruebas unitarias.
+ASSERT: Es un módulo de Node.js que proporciona un conjunto simple de funciones de prueba de afirmaciones. Es útil para verificar valores esperados y lanzar errores cuando las afirmaciones no son verdaderas. Básicamente, te ayuda a asegurarte de que tu código está funcionando como debería al comparar resultados esperados con los resultados reales.
+
+TEST: Es un módulo de Node.js que ofrece una manera más estructurada y avanzada de organizar y ejecutar pruebas. Permite definir y agrupar tests, proporcionando mayor flexibilidad y control sobre el proceso de pruebas unitarias.
 
 Ambos son fundamentales para escribir y ejecutar pruebas en Node.js, ayudando a mantener el código libre de errores y garantizando que todo funcione como se espera.
-================
 
-Ejemplo de prueba unitaria en Node.js usando assert:
+________________
+
+#### Ejemplo de prueba unitaria en Node.js usando assert:
 
 Supongamos que tienes una función que quieres probar en isVowel.mjs:
 
@@ -78,7 +80,7 @@ Se crea un archivo de prueba, por ejemplo testIsVowel.mjs, que use assert:
 
 ```javascript
 
-// testIsVowel.mjs
+// isVowel.spec.mjs
 import assert from 'assert';
 import { isVowel } from './isVowel.mjs';
 
@@ -87,20 +89,18 @@ assert.strictEqual(isVowel('a'), true, 'a es una vocal');
 assert.strictEqual(isVowel('b'), false, 'b no es una vocal');
 
 console.log('Todas las pruebas pasaron');
-´´´
-
+```
 para correr el test, 
 
-´´´ bash
-node testIsVowel.mjs
+``` bash
+node isVowel.spec.mjs
 ```  
 
-Si todas las aserciones (assert) son verdaderas, verás el mensaje "Todas las pruebas pasaron". Si alguna falla, se lanzará un error con el mensaje correspondiente. ¿Quieres profundizar más en las pruebas unitarias o en alguna otra cosa?
+Si todas las aserciones (assert) son verdaderas, verás el mensaje "Todas las pruebas pasaron". 
 
+__________________
 
-=================================
-
-ejemplo con assert y test
+### Ejemplo con assert y test
 
 Unit Test sobre función que suma dos números. Ejemplo:
 
@@ -116,7 +116,7 @@ Ahora, el archivo de prueba testSum.mjs utilizando los módulos assert y test:
 
 ```javascript
 
-// testSum.mjs
+// sum.spec.mjs
 import assert from 'assert';
 import { test } from 'node:test';
 import { sum } from './sum.mjs';
@@ -129,24 +129,26 @@ test('Prueba de suma', () => {
 });
 
 console.log('Todas las pruebas pasaron');
+```
 
 Para correr el test, usar el comando:
 
 ```bash
-node testSum.mjs
+node sum.spec.mjs
 
 ```
 
 
 ______________
 
+### Ejemplo de Unit Test sobre función Autenticación 
+
 Supongamos que tienes un módulo de autenticación donde verificas las credenciales de un usuario. Necesitamos probar varios casos, como contraseñas correctas e incorrectas, nombres de usuario inexistentes, etc.
 
 Módulo de autenticación en auth.mjs:
 
-javascript
+```javascript
 
-Copiar
 // auth.mjs
 const users = [
     { username: 'user1', password: 'password1' },
@@ -160,12 +162,13 @@ export const authenticate = (username, password) => {
     }
     return false;
 };
+```
+
 Archivo de pruebas avanzadas testAuth.mjs:
 
-javascript
+```javascript
 
-Copiar
-// testAuth.mjs
+// auth.spec.mjs
 import assert from 'assert';
 import { test } from 'node:test';
 import { authenticate } from './auth.mjs';
@@ -180,12 +183,17 @@ test('Prueba de autenticación con credenciales incorrectas', () => {
 });
 
 test('Prueba de autenticación con usuario inexistente', () => {
-    assert.strictEqual(authenticate('nonexistentUser', 'password'), false, 'Un usuario inexistente no debería ser autenticado');
+    assert.strictEqual(authenticate('nonexistentUser', 'password1'), false, 'Un usuario inexistente no debería ser autenticado');
 });
 
 test('Prueba de autenticación con campos vacíos', () => {
     assert.strictEqual(authenticate('', ''), false, 'Los campos vacíos no deberían autenticar a ningún usuario');
 });
+
+test('Prueba de autenticación con credenciales incorrectas (cambiadas) ', () => {
+    assert.strictEqual(authenticate('user1', 'wrongpassword'), false, 'Las credenciales incorrectas no deberían autenticar al usuario');
+});
+
 
 console.log('Todas las pruebas pasaron');
 En esta actividad, te aseguras de que tu módulo de autenticación funcione correctamente para diferentes escenarios. ¡Prueba a ejecutarlo y cuéntame cómo te va! ¿Listo para el siguiente reto?
