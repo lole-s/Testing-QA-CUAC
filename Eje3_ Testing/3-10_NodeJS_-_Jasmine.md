@@ -19,7 +19,7 @@ Luego, creamos una carpeta para nuestra práctica en `c:\temp\` llamadas `palind
 
 ```bash 
 cd /c/temp/
-mkdir palindorme
+mkdir palindrome
 cd palindrome
 ```
 
@@ -43,17 +43,6 @@ function isPalindrome(str) {
 module.exports = isPalindrome;
 ```
 
-Listamos los paquetes globales
-
-```bash
-npm list -g --depth=0
-```
-Listamos los paquetes locales
-
-```bash
-npm list --depth=0
-```
-
 ## Instalar Jasmine 
 
 Instalar Jasmine y ejecutar pruebas es bastante sencillo. Aquí tienes los pasos:
@@ -73,10 +62,34 @@ Luego, inicializa Jasmine en el proyecto:
 npx jasmine init
 ```
 Esto creará una estructura de carpetas y archivos de configuración para Jasmine.
+```bash
+ls -alh
+ls -alh ./node_modules/
+```
+
+Para listar los paquetes globales hacemos:
+
+```bash
+npm list -g --depth=0
+```
+y para los listarar los paquetes locales
+
+```bash
+npm list --depth=0
+```
 
 Escribir una prueba:
 
-Crea un archivo de prueba en el directorio spec (creado por Jasmine):
+Crea un archivo de prueba en el directorio `spec` (creado por Jasmine):
+
+```bash
+cd spec/
+touch palindrome.spec.js
+vim palindrome.spec.js
+```
+en este archivo escribiremos nuestros casos de pruebe Positívos, Negativos y casos de borde (o de extremos) 
+
+nota: ver estos casos en link de la parte superior de esta página. 
 
 - Ejecutar las pruebas:
 
