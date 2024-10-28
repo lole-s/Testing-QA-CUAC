@@ -10,28 +10,49 @@ Jasmine es conocida por ser fácil de usar y no requiere dependencias adicionale
 
 Antes de comenzar con la instalción del framework Jasmine verifucalemos las version de npm que tenemos instalada: 
 
-´´´bash
+```bash
 npm -v 
-
+```
 NOTA: npm (Node Package Manager) es una herramienta que viene con Node.js y se usa para gestionar paquetes (librerías y módulos) en proyectos de JavaScript. Te permite instalar, actualizar y desinstalar paquetes, así como manejar dependencias de tu proyecto
 
-Luego, creamos una carpeta para nuestra práctica en ´c:\temp\´ llamadas ´palindrome´
+Luego, creamos una carpeta para nuestra práctica en `c:\temp\` llamadas `palindrome`
 
 ```bash 
 cd /c/temp/
 mkdir palindorme
 cd palindrome
+```
+
+y creamos el archivo con la función que queremos probary lo editamos: 
+
+```bash 
+touch palindrome.js
+vim palindrome.js
+```
+la función tiene la sig. lógica: 
+
+```javascript
+function reverse(str) {
+  return str.split('').reverse().join('');
+}
+
+function isPalindrome(str) {
+  return reverse(str) === str;
+}
+
+module.exports = isPalindrome;
+```
 
 Listamos los paquetes globales
 
-´´´bash
+```bash
 npm list -g --depth=0
-
+```
 Listamos los paquetes locales
 
-´´´bash
+```bash
 npm list --depth=0
-
+```
 
 ## Instalar Jasmine 
 
@@ -41,16 +62,16 @@ Instalar Jasmine y ejecutar pruebas es bastante sencillo. Aquí tienes los pasos
 
 Primero, navega al directorio del proyecto en la terminal y ejecuta:
 
-´´´bash
+```bash
 npm install --save-dev jasmine
-
+```
 - Inicializar Jasmine:
 
 Luego, inicializa Jasmine en el proyecto:
 
 ```bash
 npx jasmine init
-
+```
 Esto creará una estructura de carpetas y archivos de configuración para Jasmine.
 
 Escribir una prueba:
@@ -59,7 +80,7 @@ Crea un archivo de prueba en el directorio spec (creado por Jasmine):
 
 - Ejecutar las pruebas:
 
-´´´bash
+```bash
 npx jasmine
-
+```
 Jasmine ejecutará las pruebas y las mostrará los resultados en la terminal.
