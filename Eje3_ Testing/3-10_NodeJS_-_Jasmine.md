@@ -87,9 +87,8 @@ cd spec/
 touch palindrome.spec.js
 vim palindrome.spec.js
 ```
-en este archivo escribiremos nuestros casos de pruebe Positívos, Negativos y casos de borde (o de extremos) 
 
-nota: ver estos casos en link de la parte superior de esta página. 
+En este archivo escribiremos nuestros casos de pruebe Positívos, Negativos y casos de borde (o de extremos) 
 
 - Ejecutar las pruebas:
 
@@ -97,3 +96,85 @@ nota: ver estos casos en link de la parte superior de esta página.
 npx jasmine
 ```
 Jasmine ejecutará las pruebas y las mostrará los resultados en la terminal.
+
+### Actividad 1: 
+1- Agregar en spec/palindrome.spec.js los casos de prueba los [casos de prueba positivos](https://education.launchcode.org/intro-to-professional-web-dev/chapters/unit-testing/unit-testing-in-action.html#positive-test-cases) y luego ejecutar jasmine desde el terminal 
+```bash
+npx jasmine
+```
+2- Añadir en spec/palindrome.spec.js los casos de prueba los [casos de prueba negativos](https://education.launchcode.org/intro-to-professional-web-dev/chapters/unit-testing/unit-testing-in-action.html#negative-test-cases) y luego ejecutar jasmine desde el terminal 
+```bash
+npx jasmine
+```
+3- Añadir en spec/palindrome.spec.js los casos de prueba los [casos de prueba de borde](https://education.launchcode.org/intro-to-professional-web-dev/chapters/unit-testing/unit-testing-in-action.html#edge-cases) y luego ejecutar jasmine desde el terminal 
+```bash
+npx jasmine
+```
+
+## Como funciona la función isPalindrome() ?.
+
+La función `isPalindrome(str)` invoca a `reverse(str)`  y luego compara dos string, retornando `true` en caso que sean estrictamente iguales.
+
+```javascript
+
+function isPalindrome(str) {
+  const cleanedStr = str.toLowerCase().replace(/\s+/g, '');
+  return reverse(cleanedStr) === cleanedStr;
+}
+```
+
+La función  `reverse(str)` toma una cadena de texto (str) y la devuelve invertida.
+
+```javascript
+function reverse(str) {
+   return str.split('').reverse().join('');
+}
+```
+
+Vamos a desglosarlo paso a paso con la cadena "hola":
+
+1- str.split(''): Divide la cadena en un array de caracteres.
+```javascript
+"hola".split('')
+```
+Salida: ['h', 'o', 'l', 'a']
+
+2- reverse(): Invierte el orden de los elementos del array.
+```javascript
+['h', 'o', 'l', 'a'].reverse()
+```
+Salida: ['a', 'l', 'o', 'h']
+
+3- join(''): Junta los caracteres del array nuevamente en una cadena de texto.
+```javascript
+['a', 'l', 'o', 'h'].join('')
+```
+Salida: "aloh"
+
+Así, al final del proceso, la función convierte "hola" en "aloh"
+
+### Actividad 2: 
+
+1. Supongamos que actualizamos isPalindrome() para que no distinga entre mayúsculas y minúsculas ( por ejemplo, isPalindrome('Radar') devuelve true ).
+
+  - ¿Cuál de los siguientes es un ejemplo de caso de prueba positivo de isPalindrome() para verificar si no distingue entre   mayúsculas y minúsculas?
+```  
+  a- aa
+  b- aBa
+  c- Mom
+  d- Taco Cat
+  c- AbAb
+```
+  - ¿Cuáles de los casos de prueba negativos enumerados anteriormente ya no son válidos para nuestro sistema que no       distingue entre mayúsculas y minúsculas isPalindrome?
+
+```
+ a- ab
+ b- launchcode
+ c- abA
+ d- so many dynamos
+```
+
+2. Modificar la función `isPalindrome(str)` para que no distinga entre mayusculas y minusculas y no tenga cuenta los espacios en blanco. De modo que por ejemplo:  _Anita lava la tina_ devuelva true.
+   
+3. Modificar los casos de prueba de acuerdo al nuevo requerimiento de modo que la ejecutación de Jasmine quede libre de errores.
+   
