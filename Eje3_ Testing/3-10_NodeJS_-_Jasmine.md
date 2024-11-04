@@ -96,7 +96,7 @@ En este archivo escribiremos nuestros casos de pruebe Positívos, Negativos y ca
 npx jasmine
 ```
 Jasmine ejecutará las pruebas y las mostrará los resultados en la terminal.
-
+___
 ### Actividad 1: 
 1- Agregar en spec/palindrome.spec.js los casos de prueba los [casos de prueba positivos](https://education.launchcode.org/intro-to-professional-web-dev/chapters/unit-testing/unit-testing-in-action.html#positive-test-cases) y luego ejecutar jasmine desde el terminal 
 ```bash
@@ -110,6 +110,7 @@ npx jasmine
 ```bash
 npx jasmine
 ```
+____
 
 ## Como funciona la función isPalindrome() ?.
 
@@ -152,6 +153,7 @@ Salida: ['a', 'l', 'o', 'h']
 Salida: "aloh"
 
 Así, al final del proceso, la función convierte "hola" en "aloh"
+___
 
 ### Actividad 2: 
 
