@@ -33,7 +33,7 @@ _____________________________
 
 #### Ejemplo 1:  TDD con NodeJs y Jasmine
 
-Supongamos que se nos solicita escribir un modulo Js que verifique su un numero dado es un numero primo. 
+Supongamos que se nos solicita escribir un modulo Js que verifique su un número es primo. 
 
 A partir de la solicitud podriamos pensar los siguientes requisitos discretos 
 
@@ -45,27 +45,27 @@ Requisitos Discretos
 
 3- Comprobación de divisibilidad: La función debe verificar si el número es divisible por algún número entero mayor que 1 y menor que él mismo. Si se encuentra un divisor (aparte de 1 y el mismo número), debe retornar false.
 
-Caso contrario:
-  Si no se encuentra ningún divisor, la función debe retornar true.
+  Caso contrario: Si no se encuentra ningún divisor, la función debe retornar true.
+
 
 ##### Paso 1: Escribir una prueba (Red)
 
-Vamos a escribir una prueba para una función que valide si un número es primo. Crea un archivo llamado *prime.spec.js* en el directorio spec y agrega la siguiente prueba:
+Vamos a escribir las pruebas para una función (que aún No existe) que valide si un número es primo. Creamos  un archivo llamado *prime.spec.js* en el directorio *spec* y agregamos las siguientes pruebas:
 
 ```javascript
 const isPrime = require('../isPrime.js');
  
 describe('isPrime', () => {
 
-  it('should return false for non-integer numbers', () => {
-    expect(isPrime(2.5)).toBe(false);
-    expect(isPrime(3.1)).toBe(false);
-  });
-
   it('should return false for non-number inputs', () => {
     expect(isPrime('seven')).toBe(false);
     expect(isPrime(null)).toBe(false);
     expect(isPrime(undefined)).toBe(false);
+  });
+
+  it('should return false for non-integer numbers', () => {
+    expect(isPrime(2.5)).toBe(false);
+    expect(isPrime(3.1)).toBe(false);
   });
 
   it('should return false for numbers less than or equal to 1', () => {
