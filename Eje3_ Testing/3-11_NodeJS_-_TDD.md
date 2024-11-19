@@ -14,65 +14,77 @@ Si bien el objetivo principal es agregar nuevas características y hacer que nue
 - Verde -> Hazlo pasar implementando el código.
 - Refactorizar -> Mejorar el código.
 
-Gráfico que muestra el ciclo de fases desde el rojo para escribir la prueba, el verde para aprobar la prueba y el azul para refactorizar el código para mejorarlo, lo que apunta nuevamente al rojo.
-, verde, ciclo de refactorización.
+<img src="https://github.com/user-attachments/assets/319fbd81-2cda-438c-a557-bfb32620f4cc" alt="Descripción alternativa de la imagen" width="300" height="200">
 
-Refactorizar código significa mantener la misma característica general, pero cambiar la forma en que se implementa esa característica. Dado que tenemos una prueba para verificar nuestro código, podemos cambiar el código con confianza, sabiendo que la prueba identificará inmediatamente cualquier error. A continuación, se muestran algunos ejemplos de refactorización:
+**Refactorizar código** significa mantener la misma característica general, pero cambiar la forma en que se implementa esa característica. Dado que tenemos una prueba para verificar nuestro código, podemos cambiar el código con confianza, sabiendo que la prueba identificará inmediatamente cualquier error. A continuación, se muestran algunos ejemplos de refactorización:
 
-Utilizando diferentes estructuras de datos,
-
-Reducir la cantidad de veces que es necesario recorrer una matriz,
-
-Mover lógica duplicada a una función para que pueda reutilizarse.
+  1. Utilizando diferentes estructuras de datos,
+  2. Reducir la cantidad de veces que es necesario recorrer una matriz,
+  3. Convertir la lógica duplicada en una función para que pueda reutilizarse.
 
 La refactorización también se realiza en un proceso TDD:
+  
+  1. Decidir cómo mejorar la implementación de la función,
+  2. Cambie la prueba unitaria para utilizar esta nueva idea,
+  3. Ejecute el código para ver si la prueba falla.
+  4. Refactorizar el código para implementar la nueva idea,
+  5. Finalmente, vea la prueba aprobada con el diseño refactorizado.
+_____________________________
 
-Decidir cómo mejorar la implementación de la función,
+#### Ejemplo 1:  TDD con NodeJs y Jasmine
 
-Cambie la prueba unitaria para utilizar esta nueva idea,
+Supongamos que se nos solicita escribir un modulo Js que verifique su un numero dado es un numero primo. 
 
-Ejecute el código para ver si la prueba falla.
+A partir de la solicitud podriamos pensar los siguientes requisitos discretos 
 
-Refactorizar el código para implementar la nueva idea,
+Requisitos Discretos
 
-Finalmente, vea la prueba aprobada con el diseño refactorizado.
----
-Desarrollo guiado por pruebas (TDD) es una metodología de desarrollo de software en la que las pruebas se escriben antes del código que se necesita para pasar esas pruebas. Esta técnica sigue tres etapas principales, conocidas como el ciclo "Red-Green-Refactor":
+1- Entrada Válida: La función debe aceptar solo un número entero como entrada. Caso contrario retornar 'false'.
 
-  1. Red: Escribir una prueba que fallará porque el código necesario aún no existe.
-  2. Green: Escribir el código mínimo necesario para que la prueba pase.
-  3. Refactor: Refactorizar el código para mejorarlo sin cambiar su comportamiento.
+2- Comprobación de números menores o iguales a 1: La función debe retornar false para cualquier número menor o igual a 1, ya que no son primos.
 
-Principales Motivos de TDD
+3- Comprobación de divisibilidad: La función debe verificar si el número es divisible por algún número entero mayor que 1 y menor que él mismo. Si se encuentra un divisor (aparte de 1 y el mismo número), debe retornar false.
 
-- **Mejor Diseño del Código**: TDD promueve la creación de código limpio y bien estructurado desde el principio.
-- **Menos Errores**: Al escribir pruebas antes que el código, los errores se identifican y corrigen rápidamente.
-- **Documentación Viviente**: Las pruebas actúan como documentación, mostrando claramente lo que hace cada parte del código.
-- **Confianza al Refactorizar**: Las pruebas aseguran que las modificaciones no rompan el código existente.
-- **Mayor Mantenibilidad**: Un código bien probado es más fácil de mantener y extender en el futuro.
-
-#### Ejemplo TDD con NodeJs y Jasmine
+Caso contrario:
+  Si no se encuentra ningún divisor, la función debe retornar true.
 
 ##### Paso 1: Escribir una prueba (Red)
-Vamos a escribir una prueba para una función que valide si un número es primo. Crea un archivo llamado prime.spec.js en el directorio spec y agrega la siguiente prueba:
+
+Vamos a escribir una prueba para una función que valide si un número es primo. Crea un archivo llamado *prime.spec.js* en el directorio spec y agrega la siguiente prueba:
 
 ```javascript
-const isPrime = require('../prime');
-
+const isPrime = require('../isPrime.js');
+ 
 describe('isPrime', () => {
-  //caso positivo
-  it('should return true for a prime number', () => {
-    expect(isPrime(7)).toBe(true);
+
+  it('should return false for non-integer numbers', () => {
+    expect(isPrime(2.5)).toBe(false);
+    expect(isPrime(3.1)).toBe(false);
   });
-  //caso negativo
-  it('should return false for a non-prime number', () => {
-    expect(isPrime(4)).toBe(false);
+
+  it('should return false for non-number inputs', () => {
+    expect(isPrime('seven')).toBe(false);
+    expect(isPrime(null)).toBe(false);
+    expect(isPrime(undefined)).toBe(false);
   });
-  //caso de borde
-  it('should return false for numbers less than 2', () => {
-    expect(isPrime(1)).toBe(false);
+
+  it('should return false for numbers less than or equal to 1', () => {
     expect(isPrime(0)).toBe(false);
-    expect(isPrime(-1)).toBe(false);
+    expect(isPrime(1)).toBe(false);
+    expect(isPrime(-5)).toBe(false);
+  });
+
+  it('should return false for non-prime numbers', () => {
+    expect(isPrime(4)).toBe(false);
+    expect(isPrime(6)).toBe(false);
+    expect(isPrime(9)).toBe(false);
+  });
+
+  it('should return true for prime numbers', () => {
+    expect(isPrime(2)).toBe(true);
+    expect(isPrime(3)).toBe(true);
+    expect(isPrime(5)).toBe(true);
+    expect(isPrime(7)).toBe(true);
   });
 });
 ```
@@ -83,7 +95,7 @@ Crea un archivo prime.js en el directorio raíz del proyecto y agrega la siguien
 ```javascript
 
 function isPrime(num) {
-  if (num <= 1) return false;
+  if (!Number.isInteger(num) || num <= 1) return false;
   for (let i = 2; i < num; i++) {
     if (num % i === 0) return false;
   }
@@ -92,6 +104,7 @@ function isPrime(num) {
 
 module.exports = isPrime;
 ```
+
 ##### Paso 3: Ejecutar la prueba
 
 Corre Jasmine para ver si la prueba pasa. Si la prueba pasa, el código está correcto.
@@ -102,7 +115,7 @@ Podemos mejorar la eficiencia de la función isPrime verificando solo hasta la r
 
 ```javascript
 function isPrime(num) {
-  if (num <= 1) return false;
+  if (!Number.isInteger(num) || num <= 1) return false;
   for (let i = 2, sqrt = Math.sqrt(num); i <= sqrt; i++) {
     if (num % i === 0) return false;
   }
@@ -112,78 +125,8 @@ function isPrime(num) {
 module.exports = isPrime;
 ```
 
-#### Ejercicio TDD con NodeJs y Jasmine: Reversa de Palabras en una Frase 
+#### Ejemplo 2: TDD con NodeJs y Jasmine
 
-Para practicar la metodología de desarrollo TDD, intentemos crear una función para la manipulación de cadenas de texto 
-que cumpla con los siguientes requisitos: 
+Ahora veamos, en el siguiente link, un ejemplo un poco mas realista de diseño de una función  basada en TDD usando NodeJs y Jasmine.
 
-
-Descripción
-Escribe una función que tome una frase como entrada y devuelva la misma frase con las palabras en orden inverso.
-
-Paso 1: Escribir una prueba (Red)
-Crea un archivo llamado reverseWords.spec.js en el directorio spec y agrega la siguiente prueba:
-
-javascript
-const reverseWords = require('../reverseWords');
-
-describe('reverseWords', () => {
-  it('should reverse the words in a sentence', () => {
-    expect(reverseWords('hello world')).toBe('world hello');
-  });
-
-  it('should handle an empty string', () => {
-    expect(reverseWords('')).toBe('');
-  });
-
-  it('should handle a single word', () => {
-    expect(reverseWords('hello')).toBe('hello');
-  });
-
-  it('should handle multiple spaces between words', () => {
-    expect(reverseWords('hello   world')).toBe('world   hello');
-  });
-});
-Paso 2: Escribir el código mínimo (Green)
-Crea un archivo reverseWords.js en el directorio raíz del proyecto y agrega la siguiente función:
-
-javascript
-function reverseWords(sentence) {
-  return sentence.split(' ').reverse().join(' ');
-}
-
-module.exports = reverseWords;
-Paso 3: Ejecutar la prueba
-Corre Jasmine para ver si las pruebas pasan. Si las pruebas pasan, el código está correcto.
-
-Paso 4: Refactorizar el código (Refactor)
-En este caso, el código ya es bastante simple y eficiente. Sin embargo, podrías refactorizarlo para manejar posibles espacios en blanco al principio y al final de la frase:
-
-javascript
-function reverseWords(sentence) {
-  return sentence.trim().split(/\s+/).reverse().join(' ');
-}
-
-module.exports = reverseWords;
-Ejercicio Adicional
-Para practicar más, intenta lo siguiente:
-
-Agregar una prueba para convertir una cadena a camelCase.
-
-Implementar la función que convierta una cadena a camelCase.
-
-Refactorizar el código si es necesario.
-
-Este ejercicio te permitirá profundizar en las técnicas de TDD y mejorar tus habilidades de manipulación de cadenas con NodeJs y Jasmine. ¡Espero que te resulte útil! 🚀
-
-que es camelcase?
-CamelCase es una convención de escritura en la que las palabras se concatenan sin espacios y cada palabra comienza con una letra mayúscula. Es comúnmente utilizada en programación para nombrar variables, funciones y clases. Hay dos variantes principales:
-
-UpperCamelCase (o PascalCase): La primera letra de cada palabra, incluida la primera palabra, está en mayúscula. Ejemplo: ThisIsAnExample.
-
-lowerCamelCase: La primera letra de la primera palabra está en minúscula, y la primera letra de cada palabra subsiguiente está en mayúscula. Ejemplo: thisIsAnExample.
-
-El uso de CamelCase ayuda a mejorar la legibilidad del código al separar claramente las palabras en un identificador. ¿Te gustaría un ejemplo de cómo se usa en el código?
-
-
-fuente: https://education.launchcode.org/intro-to-professional-web-dev/chapters/unit-testing/tdd.html
+(TDD en Acción)[https://education.launchcode.org/intro-to-professional-web-dev/chapters/unit-testing/tdd-example.html] 
